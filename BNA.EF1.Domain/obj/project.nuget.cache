@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZhY6H4m7sm4=",
+  "dgSpecHash": "GhqcrIhu+RM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\n29938\\Desktop\\Ejercitacion Apis\\BNA EF1 V.1.02\\BNA.EF1.Domain\\BNA.EF1.Domain.csproj",
+  "projectFilePath": "C:\\Users\\n29938\\Documents\\GitHub\\EF1\\BNA.EF1.Domain\\BNA.EF1.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\n29938\\.nuget\\packages\\erroror\\2.0.1\\erroror.2.0.1.nupkg.sha512",
     "C:\\Users\\n29938\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",

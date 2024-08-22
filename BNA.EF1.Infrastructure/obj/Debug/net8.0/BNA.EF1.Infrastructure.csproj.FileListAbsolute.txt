@@ -93,3 +93,23 @@ C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Infrastructure\
 C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1.Infrastructure.pdb
 C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1.Infrastructure.genruntimeconfig.cache
 C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Infrastructure\obj\Debug\net8.0\ref\BNA.EF1.Infrastructure.dll
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\bin\Debug\net8.0\BNA.EF1.Infrastructure.deps.json
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\bin\Debug\net8.0\BNA.EF1.Infrastructure.runtimeconfig.json
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\bin\Debug\net8.0\BNA.EF1.Infrastructure.dll
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\bin\Debug\net8.0\BNA.EF1.Infrastructure.pdb
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\bin\Debug\net8.0\BNA.EF1.Application.dll
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\bin\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\bin\Debug\net8.0\BNA.EF1.Application.pdb
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\bin\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1.Infrastructure.AssemblyInfo.cs
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1.Infrastructure.sourcelink.json
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1..D7D90F72.Up2Date
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1.Infrastructure.dll
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\refint\BNA.EF1.Infrastructure.dll
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1.Infrastructure.pdb
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\BNA.EF1.Infrastructure.genruntimeconfig.cache
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Infrastructure\obj\Debug\net8.0\ref\BNA.EF1.Infrastructure.dll

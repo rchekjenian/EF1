@@ -29,7 +29,8 @@ namespace BNA.EF1.API.Controllers
         [ProducesResponseType(500)]
         public async Task<ActionResult<List<Application.Clientes.Queries.GetCliente.GetClienteDto>>> GetClientesQuery()
         {
-            var clientes = await Mediator.Send(new GetClientesQuery());
+            //var clientes = await Mediator.Send(new GetClientesQuery());
+            var clientes = new GetClienteDto(new Guid(), "LoFaro", "Bruno", 20141444443);
             return Ok(clientes);
         }
 
@@ -54,9 +55,12 @@ namespace BNA.EF1.API.Controllers
         [ProducesResponseType(500)]
         public async Task<ActionResult<List<Application.Clientes.Queries.GetCliente.GetClienteDto>>> GetClientesCuentasQuery(double cuil)
         {
-            var result = await Mediator.Send(new GetClientesCuentasQuery(cuil));
+ //           var result = await Mediator.Send(new GetClientesCuentasQuery(cuil));
+            var clientes = new GetClienteDto(new Guid(), "LoFaro", "Bruno", 20141444443);
+            return Ok(clientes);
 
-            return result.Match(Ok, Problem);
+
+       //     return result.Match(Ok, Problem);
         }
         //POST /api/clientes: Da de alta un cliente.Se debe mandar la información necesaria por body(Nombre, Apellido, CUIL)
         /// <param name="request">ClienteDto</param>
@@ -97,11 +101,13 @@ namespace BNA.EF1.API.Controllers
         {
             var result = await Mediator.Send(new CreateCuentaCommand(id, request));
 
-            return result.Match(_ => Ok(), Problem);
+            //return result.Match(_ => Ok(), Problem);
+            var clientes = new GetClienteDto(new Guid(), "LoFaro", "Bruno", 20141444443);
+            return Ok(clientes);
         }
 
-        
-        }
+
+    }
     }
 
 

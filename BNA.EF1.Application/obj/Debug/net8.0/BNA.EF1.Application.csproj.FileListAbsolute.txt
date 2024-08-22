@@ -73,3 +73,19 @@ C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\obj
 C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\obj\Debug\net8.0\refint\BNA.EF1.Application.dll
 C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\obj\Debug\net8.0\BNA.EF1.Application.pdb
 C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\obj\Debug\net8.0\ref\BNA.EF1.Application.dll
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\bin\Debug\net8.0\BNA.EF1.Application.deps.json
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\bin\Debug\net8.0\BNA.EF1.Application.dll
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\bin\Debug\net8.0\BNA.EF1.Application.pdb
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\bin\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\bin\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\obj\Debug\net8.0\BNA.EF1.Application.csproj.AssemblyReference.cache
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\obj\Debug\net8.0\BNA.EF1.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\obj\Debug\net8.0\BNA.EF1.Application.AssemblyInfoInputs.cache
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\obj\Debug\net8.0\BNA.EF1.Application.AssemblyInfo.cs
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\obj\Debug\net8.0\BNA.EF1.Application.csproj.CoreCompileInputs.cache
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\obj\Debug\net8.0\BNA.EF1.Application.sourcelink.json
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\obj\Debug\net8.0\BNA.EF1..6990182C.Up2Date
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\obj\Debug\net8.0\BNA.EF1.Application.dll
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\obj\Debug\net8.0\refint\BNA.EF1.Application.dll
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\obj\Debug\net8.0\BNA.EF1.Application.pdb
+C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\obj\Debug\net8.0\ref\BNA.EF1.Application.dll

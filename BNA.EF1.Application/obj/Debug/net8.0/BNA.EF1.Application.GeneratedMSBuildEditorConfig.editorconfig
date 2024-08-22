@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BNA.EF1.Application
-build_property.ProjectDir = C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\
+build_property.ProjectDir = C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

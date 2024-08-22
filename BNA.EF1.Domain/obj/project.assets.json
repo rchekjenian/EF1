@@ -157,11 +157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\n29938\\Desktop\\Ejercitacion Apis\\BNA EF1 V.1.02\\BNA.EF1.Domain\\BNA.EF1.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\n29938\\Documents\\GitHub\\EF1\\BNA.EF1.Domain\\BNA.EF1.Domain.csproj",
       "projectName": "BNA.EF1.Domain",
-      "projectPath": "C:\\Users\\n29938\\Desktop\\Ejercitacion Apis\\BNA EF1 V.1.02\\BNA.EF1.Domain\\BNA.EF1.Domain.csproj",
+      "projectPath": "C:\\Users\\n29938\\Documents\\GitHub\\EF1\\BNA.EF1.Domain\\BNA.EF1.Domain.csproj",
       "packagesPath": "C:\\Users\\n29938\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\n29938\\Desktop\\Ejercitacion Apis\\BNA EF1 V.1.02\\BNA.EF1.Domain\\obj\\",
+      "outputPath": "C:\\Users\\n29938\\Documents\\GitHub\\EF1\\BNA.EF1.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
