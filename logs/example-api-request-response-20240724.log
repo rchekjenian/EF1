@@ -1,0 +1,5 @@
+[2024-07-24 16:24:57.932 74c00380-4b94-482d-8d83-d229fd409a59 INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["74c00380-4b94-482d-8d83-d229fd409a59"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ 

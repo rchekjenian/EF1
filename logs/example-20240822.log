@@ -1,0 +1,14 @@
+[2024-08-22 10:31:26.184 ad8c2a67-2482-4db1-87bd-46323b2193f7 INF] Now listening on: https://localhost:7288 
+ [2024-08-22 10:31:26.247 80798913-5654-4e51-b7e4-49507dd8d4e6 INF] Now listening on: http://localhost:5246 
+ [2024-08-22 10:31:26.249 60a3936f-e75e-4a1d-9d96-093b3bf15aeb INF] Application started. Press Ctrl+C to shut down. 
+ [2024-08-22 10:31:26.250 e33069be-5853-4789-9036-d8fc54c478ca INF] Hosting environment: Development 
+ [2024-08-22 10:31:26.250 6d56c258-b17e-4cf9-9315-5f2feeaa488f INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-08-22 10:31:31.301 527b0446-3b0a-46e5-afe4-e17bbbf7b743 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-08-22 10:31:32.363 527b0446-3b0a-46e5-afe4-e17bbbf7b743 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 1067.8026ms 
+ [2024-08-22 10:31:32.432 3875b3f4-8a32-427c-9018-2f62ad201a6f INF] Request starting HTTP/2 GET https://localhost:7288/_vs/browserLink - null null 
+ [2024-08-22 10:31:32.431 cbc77f8c-4bfe-4ed5-98e6-99de9b6c36f8 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-08-22 10:31:32.440 cbc77f8c-4bfe-4ed5-98e6-99de9b6c36f8 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.6676ms 
+ [2024-08-22 10:31:32.539 3875b3f4-8a32-427c-9018-2f62ad201a6f INF] Request finished HTTP/2 GET https://localhost:7288/_vs/browserLink - 200 null text/javascript; charset=UTF-8 107.178ms 
+ [2024-08-22 10:31:32.617 575683cb-803f-42f1-abe4-b7854ec1a33c INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-08-22 10:31:32.813 575683cb-803f-42f1-abe4-b7854ec1a33c INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 195.8916ms 
+ 

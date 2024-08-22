@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BNA.EF1.API.props" />
+</Project>

@@ -1,0 +1,40 @@
+[2024-07-26 14:22:04.259 8a4e8852-c587-488d-b779-31b56382b85b INF] Now listening on: https://localhost:7288 
+ [2024-07-26 14:22:04.374 45ce05ba-df03-40dc-b81c-fece2e6e7814 INF] Now listening on: http://localhost:5246 
+ [2024-07-26 14:22:04.378 625974a4-edf9-4c54-b898-4d329f9a392b INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-26 14:22:04.382 bbd82969-7c49-43fb-a1b2-bc436ac4749e INF] Hosting environment: Development 
+ [2024-07-26 14:22:04.382 54e1817e-9cad-420a-8555-e7d1227dda0d INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-26 14:22:05.240 b430e2e2-7311-429c-a3c7-29641fce1f28 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-26 14:22:08.299 b430e2e2-7311-429c-a3c7-29641fce1f28 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-26 14:22:08.620 b430e2e2-7311-429c-a3c7-29641fce1f28 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 3388.526ms 
+ [2024-07-26 14:22:08.642 dde34d7f-d62f-4bcd-9e0e-e993fe7944c2 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-26 14:22:08.665 dde34d7f-d62f-4bcd-9e0e-e993fe7944c2 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 21.4296ms 
+ [2024-07-26 14:22:08.788 b131200b-dcee-406e-9385-5a690378c7bc INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-26 14:22:08.933 b131200b-dcee-406e-9385-5a690378c7bc ERR] An unhandled exception has occurred while executing the request. 
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - BNA.EF1.API.Controllers.Cuenta.GetCuenta (BNA.EF1.API). See inner exception
+ ---> Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate schema for type - BNA.EF1.Application.Cuentas.Queries.GetCuenta.GetClienteDto. See inner exception
+ ---> System.InvalidOperationException: Can't use schemaId "$GetClienteDto" for type "$BNA.EF1.Application.Cuentas.Queries.GetCuenta.GetClienteDto". The same schemaId is already used for type "$BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto"
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaRepository.RegisterType(Type type, String schemaId)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateReferencedSchema(DataContract dataContract, SchemaRepository schemaRepository, Func`1 definitionFactory)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateConcreteSchema(DataContract dataContract, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchemaForType(Type modelType, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchema(Type modelType, SchemaRepository schemaRepository, MemberInfo memberInfo, ParameterInfo parameterInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreateResponseMediaType(ModelMetadata modelMetadata, SchemaRepository schemaRespository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<>c__DisplayClass19_0.<GenerateResponse>b__2(String contentType)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateResponse(ApiDescription apiDescription, SchemaRepository schemaRepository, String statusCode, ApiResponseType apiResponseType)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateResponses(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-07-26 14:22:08.987 cebcb032-6f9a-4ca9-a431-2e824336ecc3 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 500 null application/problem+json 198.8768ms 
+ 

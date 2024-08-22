@@ -1,0 +1,29 @@
+[2024-07-12 23:11:20.096 a2bb720a-15c2-41b6-9d7c-34becc51bcd7 INF] Now listening on: https://localhost:7288 
+ [2024-07-12 23:11:20.155 225cacd4-1e9a-4f5b-b40b-a8dcddb6e334 INF] Now listening on: http://localhost:5246 
+ [2024-07-12 23:11:20.158 a1246ad3-23cb-4943-b559-0f89c4085605 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-12 23:11:20.158 871273df-6128-4869-942e-2667bf7bc986 INF] Hosting environment: Development 
+ [2024-07-12 23:11:20.158 c09c8b7d-b186-4619-9cc0-8adbb8129e59 INF] Content root path: C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.API 
+ [2024-07-12 23:11:21.542 d8a499bb-739e-4ab7-8718-1cfa3959f33b INF] Request starting HTTP/2 GET https://localhost:7288/swagger - null null 
+ [2024-07-12 23:11:25.254 d8a499bb-739e-4ab7-8718-1cfa3959f33b WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-12 23:11:25.553 d8a499bb-739e-4ab7-8718-1cfa3959f33b INF] Request finished HTTP/2 GET https://localhost:7288/swagger - 301 0 null 4016.1941ms 
+ [2024-07-12 23:11:25.580 23d5f6bf-a634-4dc4-b566-a6ac1f87c10d INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-12 23:11:28.075 23d5f6bf-a634-4dc4-b566-a6ac1f87c10d WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-12 23:11:28.232 23d5f6bf-a634-4dc4-b566-a6ac1f87c10d INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2651.5602ms 
+ [2024-07-12 23:11:28.257 7c34d36a-25cc-401d-a986-8d76e82cfa40 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - null null 
+ [2024-07-12 23:11:28.262 9b07228a-54cf-40dd-934d-6540f0d72f49 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui-bundle.js - null null 
+ [2024-07-12 23:11:28.272 a4f2bc51-08ce-491c-a06b-d9cb049c5417 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui-standalone-preset.js - null null 
+ [2024-07-12 23:11:28.289 0a3007a5-2c73-4a00-8c6e-981b177a0fdb INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-12 23:11:28.313 0a3007a5-2c73-4a00-8c6e-981b177a0fdb INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 24.8563ms 
+ [2024-07-12 23:11:28.332 a4f2bc51-08ce-491c-a06b-d9cb049c5417 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+ [2024-07-12 23:11:28.333 a4f2bc51-08ce-491c-a06b-d9cb049c5417 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui-standalone-preset.js - 200 337162 text/javascript 60.2217ms 
+ [2024-07-12 23:11:28.341 7c34d36a-25cc-401d-a986-8d76e82cfa40 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+ [2024-07-12 23:11:28.341 7c34d36a-25cc-401d-a986-8d76e82cfa40 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - 200 143632 text/css 84.8467ms 
+ [2024-07-12 23:11:28.369 9b07228a-54cf-40dd-934d-6540f0d72f49 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+ [2024-07-12 23:11:28.370 9b07228a-54cf-40dd-934d-6540f0d72f49 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui-bundle.js - 200 1092889 text/javascript 109.1358ms 
+ [2024-07-12 23:11:28.558 b61ac709-3e69-44f9-8a66-7872859dc2a1 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-12 23:11:28.570 c89c55e6-dbbc-4268-a1a2-c659e721fc10 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - null null 
+ [2024-07-12 23:11:28.570 c89c55e6-dbbc-4268-a1a2-c659e721fc10 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+ [2024-07-12 23:11:28.571 c89c55e6-dbbc-4268-a1a2-c659e721fc10 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - 200 628 image/png 0.873ms 
+ [2024-07-12 23:11:28.786 b61ac709-3e69-44f9-8a66-7872859dc2a1 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 228.0447ms 
+ [2024-07-12 23:34:37.096 0949fc79-c655-4745-af17-bde19813ceef INF] Applying migration '20240713020846_InitialMigration'. 
+ 

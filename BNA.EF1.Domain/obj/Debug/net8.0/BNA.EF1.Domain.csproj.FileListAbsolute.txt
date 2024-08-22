@@ -1,0 +1,60 @@
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.deps.json
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.csproj.AssemblyReference.cache
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.AssemblyInfoInputs.cache
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.AssemblyInfo.cs
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.csproj.CoreCompileInputs.cache
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\obj\Debug\net8.0\refint\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Desktop\BNA.EF1\BNA.EF1.Domain\obj\Debug\net8.0\ref\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.deps.json
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.csproj.AssemblyReference.cache
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.AssemblyInfoInputs.cache
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.AssemblyInfo.cs
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.csproj.CoreCompileInputs.cache
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\obj\Debug\net8.0\refint\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando\BNA.EF1.Domain\obj\Debug\net8.0\ref\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.deps.json
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.csproj.AssemblyReference.cache
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.AssemblyInfoInputs.cache
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.AssemblyInfo.cs
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.csproj.CoreCompileInputs.cache
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\obj\Debug\net8.0\refint\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Desktop\BNA.EF1 - version Funcionando - copia\BNA.EF1.Domain\obj\Debug\net8.0\ref\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.deps.json
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.csproj.AssemblyReference.cache
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.AssemblyInfoInputs.cache
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.AssemblyInfo.cs
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.csproj.CoreCompileInputs.cache
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\obj\Debug\net8.0\refint\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1\BNA.EF1.Domain\obj\Debug\net8.0\ref\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.csproj.AssemblyReference.cache
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.AssemblyInfoInputs.cache
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.AssemblyInfo.cs
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.csproj.CoreCompileInputs.cache
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.deps.json
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\bin\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\obj\Debug\net8.0\refint\BNA.EF1.Domain.dll
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\obj\Debug\net8.0\BNA.EF1.Domain.pdb
+C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Domain\obj\Debug\net8.0\ref\BNA.EF1.Domain.dll

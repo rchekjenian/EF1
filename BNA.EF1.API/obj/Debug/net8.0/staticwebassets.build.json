@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X64OqUXg90zl53J4TMpC2/7J/qT6JlLGhbPfkJNfgOc=",
+  "Source": "BNA.EF1.API",
+  "BasePath": "_content/BNA.EF1.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

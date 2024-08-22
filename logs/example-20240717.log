@@ -1,0 +1,35 @@
+[2024-07-17 18:47:03.793 c6bbf977-1db1-478d-86d3-c1188b768041 INF] Now listening on: https://localhost:7288 
+ [2024-07-17 18:47:03.873 3bed6dfe-6135-4250-ad74-2951fbeb9a32 INF] Now listening on: http://localhost:5246 
+ [2024-07-17 18:47:03.879 1ff83303-433f-4af3-9fe1-0126125b6537 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-17 18:47:03.880 0ab2d279-06cd-4e96-894b-1d585c4fa2b7 INF] Hosting environment: Development 
+ [2024-07-17 18:47:03.880 d8466dfb-5aae-4807-9041-7d1d1c5f2562 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-17 18:47:05.005 3aee5cfb-ac7e-470f-bd9c-97b7f82b449d INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-17 18:47:07.992 3aee5cfb-ac7e-470f-bd9c-97b7f82b449d WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-17 18:47:08.291 3aee5cfb-ac7e-470f-bd9c-97b7f82b449d INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 3288.8375ms 
+ [2024-07-17 18:47:08.322 e75b74e2-cdf1-4554-91b3-3c0c7442cf19 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-17 18:47:08.334 e75b74e2-cdf1-4554-91b3-3c0c7442cf19 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 12.2728ms 
+ [2024-07-17 18:47:08.483 0df72916-15b1-4677-b393-a1f0bbff27f2 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-17 18:47:08.693 0df72916-15b1-4677-b393-a1f0bbff27f2 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 209.6614ms 
+ [2024-07-17 18:49:37.054 8a06195a-76e2-443d-80c2-8d260c1e2525 INF] Request starting HTTP/2 POST https://localhost:7288/api/Example - application/json 31 
+ [2024-07-17 18:49:37.082 8a06195a-76e2-443d-80c2-8d260c1e2525 INF] Executing endpoint 'BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API)' 
+ [2024-07-17 18:49:37.132 8a06195a-76e2-443d-80c2-8d260c1e2525 INF] Route matched with {action = "CreateExample", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateExample(BNA.EF1.Application.Example.Commands.CreateExample.CreateExampleCommand) on controller BNA.EF1.API.Controllers.ExampleController (BNA.EF1.API). 
+ [2024-07-17 18:49:37.399 8a06195a-76e2-443d-80c2-8d260c1e2525 INF] Executing action method BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-17 18:49:39.035 8a06195a-76e2-443d-80c2-8d260c1e2525 INF] Iniciando creacion de Example 
+ [2024-07-17 18:49:40.403 8a06195a-76e2-443d-80c2-8d260c1e2525 INF] Finalizando creacion de Example exitosamente 
+ [2024-07-17 18:49:43.703 8a06195a-76e2-443d-80c2-8d260c1e2525 INF] Executed action method BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 6296.2992ms. 
+ [2024-07-17 18:49:43.718 8a06195a-76e2-443d-80c2-8d260c1e2525 INF] Executing StatusCodeResult, setting HTTP status code 200 
+ [2024-07-17 18:49:43.723 8a06195a-76e2-443d-80c2-8d260c1e2525 INF] Executed action BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API) in 6584.1095ms 
+ [2024-07-17 18:49:43.724 8a06195a-76e2-443d-80c2-8d260c1e2525 INF] Executed endpoint 'BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API)' 
+ [2024-07-17 18:49:43.734 8a06195a-76e2-443d-80c2-8d260c1e2525 INF] Request finished HTTP/2 POST https://localhost:7288/api/Example - 200 0 null 6680.4278ms 
+ [2024-07-17 18:49:55.556 e87d1e42-40a0-49b0-be0d-55fa018cd4dd INF] Request starting HTTP/2 POST https://localhost:7288/api/Example - application/json 31 
+ [2024-07-17 18:49:55.557 e87d1e42-40a0-49b0-be0d-55fa018cd4dd INF] Executing endpoint 'BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API)' 
+ [2024-07-17 18:49:55.558 e87d1e42-40a0-49b0-be0d-55fa018cd4dd INF] Route matched with {action = "CreateExample", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateExample(BNA.EF1.Application.Example.Commands.CreateExample.CreateExampleCommand) on controller BNA.EF1.API.Controllers.ExampleController (BNA.EF1.API). 
+ [2024-07-17 18:49:55.596 e87d1e42-40a0-49b0-be0d-55fa018cd4dd INF] Executing action method BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-17 18:49:55.702 e87d1e42-40a0-49b0-be0d-55fa018cd4dd INF] Iniciando creacion de Example 
+ [2024-07-17 18:49:55.740 e87d1e42-40a0-49b0-be0d-55fa018cd4dd INF] Finalizando creacion de Example exitosamente 
+ [2024-07-17 18:49:57.881 e87d1e42-40a0-49b0-be0d-55fa018cd4dd INF] Executed action method BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 2283.7804ms. 
+ [2024-07-17 18:49:57.882 e87d1e42-40a0-49b0-be0d-55fa018cd4dd INF] Executing StatusCodeResult, setting HTTP status code 200 
+ [2024-07-17 18:49:57.882 e87d1e42-40a0-49b0-be0d-55fa018cd4dd INF] Executed action BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API) in 2323.6795ms 
+ [2024-07-17 18:49:57.883 e87d1e42-40a0-49b0-be0d-55fa018cd4dd INF] Executed endpoint 'BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API)' 
+ [2024-07-17 18:49:57.883 e87d1e42-40a0-49b0-be0d-55fa018cd4dd INF] Request finished HTTP/2 POST https://localhost:7288/api/Example - 200 0 null 2326.6615ms 
+ 

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BNA.EF1.API</name>
+    </assembly>
+    <members>
+        <member name="M:BNA.EF1.API.Controllers.ClienteController.CreateClienteCommand(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand)">
+            <param name="request">ClienteDto</param>
+            <returns>Cliente</returns>
+        </member>
+        <member name="M:BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta(System.Guid,BNA.EF1.Application.Cuentas.Commands.CreateCuenta.CuentaDto)">
+            <param name="request">CuentasDto</param>
+            <param name="id">ClienteId</param>
+            <returns>Cuenta</returns>
+        </member>
+        <member name="M:BNA.EF1.API.Controllers.CuentaController.GetCuentaQueryNroCuenta(System.String)">
+            <param name="numeroCuenta">numeroCuenta</param>
+            <returns>The Cuenta by numeroCuenta</returns>
+        </member>
+        <member name="M:BNA.EF1.API.Controllers.ExampleController.GetExample(System.Guid)">
+            <summary>
+            Get an example class
+            </summary>
+            <param name="id">example id</param>
+            <returns>The example by id</returns>
+        </member>
+        <member name="M:BNA.EF1.API.Controllers.ExampleController.CreateExample(BNA.EF1.Application.Example.Commands.CreateExample.CreateExampleCommand)">
+            <summary>
+            Creates a new Example
+            </summary>
+            <param name="request">The example</param>
+            <returns>The example id</returns>
+        </member>
+        <member name="M:BNA.EF1.API.Controllers.HealthController.HealthCheck">
+            <summary>
+            Método de health de la aplicacion
+            </summary>
+            <returns>Estado de los servicios y estado general de la app</returns>
+        </member>
+    </members>
+</doc>

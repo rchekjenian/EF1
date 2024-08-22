@@ -1,0 +1,305 @@
+[2024-07-30 15:53:20.119 b3fe571f-9fc2-4c96-b7bc-91df9dd143a1 INF] Now listening on: https://localhost:7288 
+ [2024-07-30 15:53:20.191 06d757fb-5df6-4358-b5de-11f8e6d188ca INF] Now listening on: http://localhost:5246 
+ [2024-07-30 15:53:20.194 20b966af-41dc-41da-8b03-c17ea698a253 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-30 15:53:20.194 6e142c41-cb7f-406d-bd9d-77882f91f325 INF] Hosting environment: Development 
+ [2024-07-30 15:53:20.194 8757ab33-c21b-4be4-ae5b-eab67410de03 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-30 15:53:21.012 857fbb95-c90b-4d88-a790-5c94f6be82a5 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-30 15:53:21.716 857fbb95-c90b-4d88-a790-5c94f6be82a5 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 708.1584ms 
+ [2024-07-30 15:53:21.743 d8ae5a6a-5a07-4a03-bf3c-63a8788c22f8 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-30 15:53:21.796 d8ae5a6a-5a07-4a03-bf3c-63a8788c22f8 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 54.1015ms 
+ [2024-07-30 15:53:21.879 f6c00c46-3eab-4f7b-80f3-e6badc18ce17 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-30 15:53:22.131 f6c00c46-3eab-4f7b-80f3-e6badc18ce17 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 252.0018ms 
+ [2024-07-30 15:54:02.657 d9ee4a47-fbf6-4445-a755-d17188372bc0 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente/C974EF54-8087-43FF-A9D0-69A6E9EAE84A/cuentas - application/json 98 
+ [2024-07-30 15:54:02.665 d9ee4a47-fbf6-4445-a755-d17188372bc0 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API)' 
+ [2024-07-30 15:54:02.694 d9ee4a47-fbf6-4445-a755-d17188372bc0 INF] Route matched with {action = "CreateCuentaCommandCuenta", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCuentaCommandCuenta(System.Guid, BNA.EF1.Application.Cuentas.Commands.CreateCuenta.CuentaDto) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 15:54:02.903 d9ee4a47-fbf6-4445-a755-d17188372bc0 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 15:54:07.408 d9ee4a47-fbf6-4445-a755-d17188372bc0 INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 4497.5858ms. 
+ [2024-07-30 15:54:07.415 d9ee4a47-fbf6-4445-a755-d17188372bc0 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+ [2024-07-30 15:54:07.438 d9ee4a47-fbf6-4445-a755-d17188372bc0 INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API) in 4738.9136ms 
+ [2024-07-30 15:54:07.439 d9ee4a47-fbf6-4445-a755-d17188372bc0 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API)' 
+ [2024-07-30 15:54:07.439 d9ee4a47-fbf6-4445-a755-d17188372bc0 INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente/C974EF54-8087-43FF-A9D0-69A6E9EAE84A/cuentas - 400 null application/problem+json; charset=utf-8 4781.9209ms 
+ [2024-07-30 15:54:32.777 dc09aef0-1272-47e5-bfb9-d01e42775c5a INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente/C974EF54-8087-43FF-A9D0-69A6E9EAE84A/cuentas - application/json 97 
+ [2024-07-30 15:54:32.797 dc09aef0-1272-47e5-bfb9-d01e42775c5a INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API)' 
+ [2024-07-30 15:54:32.798 dc09aef0-1272-47e5-bfb9-d01e42775c5a INF] Route matched with {action = "CreateCuentaCommandCuenta", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCuentaCommandCuenta(System.Guid, BNA.EF1.Application.Cuentas.Commands.CreateCuenta.CuentaDto) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 15:54:32.828 dc09aef0-1272-47e5-bfb9-d01e42775c5a INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 15:54:34.362 dc09aef0-1272-47e5-bfb9-d01e42775c5a INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 1534.1574ms. 
+ [2024-07-30 15:54:34.365 dc09aef0-1272-47e5-bfb9-d01e42775c5a INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+ [2024-07-30 15:54:34.366 dc09aef0-1272-47e5-bfb9-d01e42775c5a INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API) in 1567.8439ms 
+ [2024-07-30 15:54:34.366 dc09aef0-1272-47e5-bfb9-d01e42775c5a INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API)' 
+ [2024-07-30 15:54:34.367 dc09aef0-1272-47e5-bfb9-d01e42775c5a INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente/C974EF54-8087-43FF-A9D0-69A6E9EAE84A/cuentas - 400 null application/problem+json; charset=utf-8 1591.8435ms 
+ [2024-07-30 15:54:51.945 70a63e6d-e92d-4d31-bf5a-0a816cb54343 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente/C974EF54-8087-43FF-A9D0-69A6E9EAE84A/cuentas - application/json 98 
+ [2024-07-30 15:54:51.946 70a63e6d-e92d-4d31-bf5a-0a816cb54343 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API)' 
+ [2024-07-30 15:54:51.947 70a63e6d-e92d-4d31-bf5a-0a816cb54343 INF] Route matched with {action = "CreateCuentaCommandCuenta", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCuentaCommandCuenta(System.Guid, BNA.EF1.Application.Cuentas.Commands.CreateCuenta.CuentaDto) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 15:54:51.988 70a63e6d-e92d-4d31-bf5a-0a816cb54343 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:06:54.131 e292bb08-d6b5-4c58-a58a-4bb43148fe51 INF] Now listening on: https://localhost:7288 
+ [2024-07-30 16:06:54.221 e1576346-6031-4e77-812b-5150013b5db0 INF] Now listening on: http://localhost:5246 
+ [2024-07-30 16:06:54.224 4bcbcd7d-124d-49eb-9a95-69830dae3a9f INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-30 16:06:54.225 72d5c4f5-01f1-4c57-9117-a7977a10dc25 INF] Hosting environment: Development 
+ [2024-07-30 16:06:54.225 dad8f5d9-36b1-4b48-afa8-7eede2e292ae INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-30 16:06:54.686 c85052d5-0ade-4263-a943-cf22360e574b INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-30 16:06:57.249 c85052d5-0ade-4263-a943-cf22360e574b WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-30 16:06:57.537 c85052d5-0ade-4263-a943-cf22360e574b INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2851.0377ms 
+ [2024-07-30 16:06:57.563 7228b7ed-d777-4989-b0ab-1380b187bfbe INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-30 16:06:57.573 7228b7ed-d777-4989-b0ab-1380b187bfbe INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.4096ms 
+ [2024-07-30 16:06:57.693 245f72f1-a02a-4244-9449-8a6d6011d45d INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-30 16:06:57.891 245f72f1-a02a-4244-9449-8a6d6011d45d INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 198.4397ms 
+ [2024-07-30 16:07:35.837 79a29d20-3ee8-4333-965c-6937691da49e INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente/C974EF54-8087-43FF-A9D0-69A6E9EAE84A/cuentas - application/json 100 
+ [2024-07-30 16:07:35.858 79a29d20-3ee8-4333-965c-6937691da49e INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API)' 
+ [2024-07-30 16:07:35.889 79a29d20-3ee8-4333-965c-6937691da49e INF] Route matched with {action = "CreateCuentaCommandCuenta", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCuentaCommandCuenta(System.Guid, BNA.EF1.Application.Cuentas.Commands.CreateCuenta.CuentaDto) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:07:36.098 79a29d20-3ee8-4333-965c-6937691da49e INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:07:38.172 79a29d20-3ee8-4333-965c-6937691da49e INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 2067.7481ms. 
+ [2024-07-30 16:07:38.182 79a29d20-3ee8-4333-965c-6937691da49e INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+ [2024-07-30 16:07:38.234 79a29d20-3ee8-4333-965c-6937691da49e INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API) in 2322.9647ms 
+ [2024-07-30 16:07:38.235 79a29d20-3ee8-4333-965c-6937691da49e INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API)' 
+ [2024-07-30 16:07:38.235 79a29d20-3ee8-4333-965c-6937691da49e INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente/C974EF54-8087-43FF-A9D0-69A6E9EAE84A/cuentas - 400 null application/problem+json; charset=utf-8 2399.1498ms 
+ [2024-07-30 16:17:59.139 61c4e73f-7262-4ca6-843e-5cd8198ad73c INF] Now listening on: https://localhost:7288 
+ [2024-07-30 16:17:59.214 b67df3c7-d520-4627-9804-f9dbda0aa085 INF] Now listening on: http://localhost:5246 
+ [2024-07-30 16:17:59.217 883f6ce0-2f42-46bf-8a29-8080a267d9b8 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-30 16:17:59.218 2897999e-4e31-4c2d-be58-5bd1ed0be24b INF] Hosting environment: Development 
+ [2024-07-30 16:17:59.218 9c665e7a-1f11-4793-ae61-c2bd97409a76 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-30 16:17:59.939 fa134c69-c967-42b1-8ca7-dc7061121185 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-30 16:18:02.471 fa134c69-c967-42b1-8ca7-dc7061121185 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-30 16:18:02.736 fa134c69-c967-42b1-8ca7-dc7061121185 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2801.4333ms 
+ [2024-07-30 16:18:02.748 f2132aca-48f7-4435-8075-12a5aca138cb INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-30 16:18:02.757 f2132aca-48f7-4435-8075-12a5aca138cb INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.9185ms 
+ [2024-07-30 16:18:02.879 4b9a9d79-3582-45d9-a809-0df3efc5b6ab INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-30 16:18:03.061 4b9a9d79-3582-45d9-a809-0df3efc5b6ab INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 189.8581ms 
+ [2024-07-30 16:18:32.732 8be5e723-7f4a-441f-b2e8-db237db56856 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 64 
+ [2024-07-30 16:18:32.740 8be5e723-7f4a-441f-b2e8-db237db56856 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:18:32.766 8be5e723-7f4a-441f-b2e8-db237db56856 INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:18:32.968 8be5e723-7f4a-441f-b2e8-db237db56856 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:18:33.132 8be5e723-7f4a-441f-b2e8-db237db56856 INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 156.944ms. 
+ [2024-07-30 16:18:33.141 8be5e723-7f4a-441f-b2e8-db237db56856 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+ [2024-07-30 16:18:33.171 8be5e723-7f4a-441f-b2e8-db237db56856 INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 398.4732ms 
+ [2024-07-30 16:18:33.172 8be5e723-7f4a-441f-b2e8-db237db56856 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:18:33.172 8be5e723-7f4a-441f-b2e8-db237db56856 INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 400 null application/problem+json; charset=utf-8 439.7733ms 
+ [2024-07-30 16:19:06.035 53ae1279-5daa-498b-8346-53205cd4761f INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 71 
+ [2024-07-30 16:19:06.040 53ae1279-5daa-498b-8346-53205cd4761f INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:19:06.041 53ae1279-5daa-498b-8346-53205cd4761f INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:19:06.081 53ae1279-5daa-498b-8346-53205cd4761f INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:19:07.540 53ae1279-5daa-498b-8346-53205cd4761f INF] Iniciando creacion de Cliente 
+ [2024-07-30 16:19:09.085 53ae1279-5daa-498b-8346-53205cd4761f INF] Finalizando creacion de Example exitosamente 
+ [2024-07-30 16:19:09.088 53ae1279-5daa-498b-8346-53205cd4761f INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 3005.3847ms. 
+ [2024-07-30 16:19:09.095 53ae1279-5daa-498b-8346-53205cd4761f INF] Executing StatusCodeResult, setting HTTP status code 200 
+ [2024-07-30 16:19:09.096 53ae1279-5daa-498b-8346-53205cd4761f INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 3053.7199ms 
+ [2024-07-30 16:19:09.097 53ae1279-5daa-498b-8346-53205cd4761f INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:19:09.106 53ae1279-5daa-498b-8346-53205cd4761f INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 200 0 null 3079.585ms 
+ [2024-07-30 16:25:02.771 d6126055-e580-427f-b60f-c43bdb977130 INF] Now listening on: https://localhost:7288 
+ [2024-07-30 16:25:02.870 bcddcbfa-793e-4fed-bef1-766586df565e INF] Now listening on: http://localhost:5246 
+ [2024-07-30 16:25:02.873 b945fdbc-7ea0-4a35-91f3-3d7e0246fe8e INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-30 16:25:02.874 ec77128b-ebf0-4ffa-926e-66f769ece763 INF] Hosting environment: Development 
+ [2024-07-30 16:25:02.874 dffddbd2-b322-412e-a82f-a87b8f54dd29 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-30 16:25:03.446 c14c4c68-390e-428a-83f5-900e4a9469e6 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-30 16:25:06.134 c14c4c68-390e-428a-83f5-900e4a9469e6 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-30 16:25:06.469 c14c4c68-390e-428a-83f5-900e4a9469e6 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 3027.3535ms 
+ [2024-07-30 16:25:06.489 70a39b0e-337a-421d-a9c6-86eb00e9a326 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-30 16:25:06.495 70a39b0e-337a-421d-a9c6-86eb00e9a326 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.7501ms 
+ [2024-07-30 16:25:06.578 3f480624-3569-4202-89d8-518f15bf683d INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-30 16:25:06.758 3f480624-3569-4202-89d8-518f15bf683d INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 180.2117ms 
+ [2024-07-30 16:25:34.875 ef108306-1da1-4485-a23b-1a8b28d005f7 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 72 
+ [2024-07-30 16:25:34.897 ef108306-1da1-4485-a23b-1a8b28d005f7 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:25:34.925 ef108306-1da1-4485-a23b-1a8b28d005f7 INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:25:35.119 ef108306-1da1-4485-a23b-1a8b28d005f7 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:25:36.524 ef108306-1da1-4485-a23b-1a8b28d005f7 INF] Iniciando creacion de Cliente 
+ [2024-07-30 16:25:38.084 ef108306-1da1-4485-a23b-1a8b28d005f7 ERR] Error al tratar de crear el example 
+ [2024-07-30 16:25:38.326 ef108306-1da1-4485-a23b-1a8b28d005f7 WRN] Excepción no manejada para el Request CreateClienteCommand {"Nombre":"BORGES","Apellido":"CLAUDIO","cuil":20202022002} 
+ [2024-07-30 16:25:38.500 ef108306-1da1-4485-a23b-1a8b28d005f7 ERR] Se detectó una excepción InternalServerErrorException 
+ BNA.EF1.Application.Common.Exceptions.InternalServerErrorException: Cliente eXISTENTE
+   at BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommandHandler.Handle(CreateClienteCommand request, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Clientes\Commands\CreateCliente\CreateClienteCommand.cs:line 53
+   at BNA.EF1.Application.Common.Behaviours.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\ValidationBehavior.cs:line 25
+   at BNA.EF1.Application.Common.Behaviours.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\UnhandledExceptionBehavior.cs:line 20
+   at BNA.EF1.API.Controllers.ClienteController.CreateCliente(CreateClienteCommand request) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API\Controllers\ClienteController.cs:line 70
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2024-07-30 16:25:38.549 ef108306-1da1-4485-a23b-1a8b28d005f7 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-30 16:25:38.570 ef108306-1da1-4485-a23b-1a8b28d005f7 INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 3637.4119ms 
+ [2024-07-30 16:25:38.571 ef108306-1da1-4485-a23b-1a8b28d005f7 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:25:38.585 ef108306-1da1-4485-a23b-1a8b28d005f7 INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 500 null application/problem+json; charset=utf-8 3709.1921ms 
+ [2024-07-30 16:26:01.530 69aa2236-0a7e-40ba-9a1b-0a627eacac91 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 72 
+ [2024-07-30 16:26:01.536 69aa2236-0a7e-40ba-9a1b-0a627eacac91 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:26:01.537 69aa2236-0a7e-40ba-9a1b-0a627eacac91 INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:26:01.572 69aa2236-0a7e-40ba-9a1b-0a627eacac91 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:26:01.641 69aa2236-0a7e-40ba-9a1b-0a627eacac91 INF] Iniciando creacion de Cliente 
+ [2024-07-30 16:26:01.907 69aa2236-0a7e-40ba-9a1b-0a627eacac91 INF] Finalizando creacion de Example exitosamente 
+ [2024-07-30 16:26:01.912 69aa2236-0a7e-40ba-9a1b-0a627eacac91 INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 336.125ms. 
+ [2024-07-30 16:26:01.916 69aa2236-0a7e-40ba-9a1b-0a627eacac91 INF] Executing StatusCodeResult, setting HTTP status code 200 
+ [2024-07-30 16:26:01.917 69aa2236-0a7e-40ba-9a1b-0a627eacac91 INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 379.7563ms 
+ [2024-07-30 16:26:01.917 69aa2236-0a7e-40ba-9a1b-0a627eacac91 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:26:01.917 69aa2236-0a7e-40ba-9a1b-0a627eacac91 INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 200 0 null 388.8916ms 
+ [2024-07-30 16:29:30.839 290a7dec-e661-4bf6-bd4c-9ae0b4f16b18 INF] Now listening on: https://localhost:7288 
+ [2024-07-30 16:29:30.912 4b6c9e6d-a6c2-415a-a2d0-c0935ab55bb9 INF] Now listening on: http://localhost:5246 
+ [2024-07-30 16:29:30.914 3ea1ea9a-072c-4b53-8b24-8c4c841e76b1 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-30 16:29:30.915 1965d586-4558-4ee7-815c-feac47bb60d8 INF] Hosting environment: Development 
+ [2024-07-30 16:29:30.915 45444b58-7231-4cd6-a251-89f1c71ef57f INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-30 16:29:31.610 f741316e-4cd7-4fcc-912c-283573aa28e1 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-30 16:29:34.328 f741316e-4cd7-4fcc-912c-283573aa28e1 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-30 16:29:34.695 f741316e-4cd7-4fcc-912c-283573aa28e1 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 3090.257ms 
+ [2024-07-30 16:29:34.727 5e144cd9-bdf2-4f81-9b3d-b9b7ce4812ec INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-30 16:29:34.753 5e144cd9-bdf2-4f81-9b3d-b9b7ce4812ec INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 26.0876ms 
+ [2024-07-30 16:29:34.879 54a2d3d7-b2c9-454b-9b32-30b0a0a9b816 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-30 16:29:35.074 54a2d3d7-b2c9-454b-9b32-30b0a0a9b816 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 194.1765ms 
+ [2024-07-30 16:30:15.625 06165080-ce8c-48d7-ba8f-af15b674167a INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 72 
+ [2024-07-30 16:30:15.653 06165080-ce8c-48d7-ba8f-af15b674167a INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:30:15.681 06165080-ce8c-48d7-ba8f-af15b674167a INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:30:15.946 06165080-ce8c-48d7-ba8f-af15b674167a INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:30:17.665 06165080-ce8c-48d7-ba8f-af15b674167a INF] Iniciando creacion de Cliente 
+ [2024-07-30 16:30:19.762 06165080-ce8c-48d7-ba8f-af15b674167a INF] Error cliente existente en la base de datos 
+ [2024-07-30 16:30:19.885 06165080-ce8c-48d7-ba8f-af15b674167a ERR] Error al tratar de crear el example 
+ [2024-07-30 16:30:20.130 06165080-ce8c-48d7-ba8f-af15b674167a WRN] Excepción no manejada para el Request CreateClienteCommand {"Nombre":"roberto","Apellido":"carlos","cuil":20202022002} 
+ [2024-07-30 16:30:20.326 06165080-ce8c-48d7-ba8f-af15b674167a ERR] Se detectó una excepción InternalServerErrorException 
+ BNA.EF1.Application.Common.Exceptions.InternalServerErrorException: Cliente eXISTENTE
+   at BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommandHandler.Handle(CreateClienteCommand request, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Clientes\Commands\CreateCliente\CreateClienteCommand.cs:line 56
+   at BNA.EF1.Application.Common.Behaviours.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\ValidationBehavior.cs:line 25
+   at BNA.EF1.Application.Common.Behaviours.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\UnhandledExceptionBehavior.cs:line 20
+   at BNA.EF1.API.Controllers.ClienteController.CreateCliente(CreateClienteCommand request) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API\Controllers\ClienteController.cs:line 70
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2024-07-30 16:30:20.383 06165080-ce8c-48d7-ba8f-af15b674167a INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-30 16:30:20.400 06165080-ce8c-48d7-ba8f-af15b674167a INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 4713.0258ms 
+ [2024-07-30 16:30:20.400 06165080-ce8c-48d7-ba8f-af15b674167a INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:30:20.425 06165080-ce8c-48d7-ba8f-af15b674167a INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 500 null application/problem+json; charset=utf-8 4799.2956ms 
+ [2024-07-30 16:38:18.839 6dbda5a1-a7a5-4fb8-8968-11e714bfc670 INF] Now listening on: https://localhost:7288 
+ [2024-07-30 16:38:18.908 75c1fc4c-25de-440d-b070-a0bdb158e5c2 INF] Now listening on: http://localhost:5246 
+ [2024-07-30 16:38:18.911 2c2dd938-64d3-49f0-9050-b2b79a536de8 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-30 16:38:18.912 5eda4a71-9bb3-464c-bdf9-75de17814a6d INF] Hosting environment: Development 
+ [2024-07-30 16:38:18.912 aaa4ae19-5662-4f9f-87d7-9f8609011a0e INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-30 16:38:19.715 002dccfa-fe95-4e54-8d05-b0ad37633299 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-30 16:38:22.217 002dccfa-fe95-4e54-8d05-b0ad37633299 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-30 16:38:22.557 002dccfa-fe95-4e54-8d05-b0ad37633299 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2847.7511ms 
+ [2024-07-30 16:38:22.559 fa14327f-59f1-4b07-b792-e4e9785d80ed INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-30 16:38:22.581 fa14327f-59f1-4b07-b792-e4e9785d80ed INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 21.3933ms 
+ [2024-07-30 16:38:22.800 f1e2fa00-7d94-4713-908c-61c3ebbf642d INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-30 16:38:23.067 f1e2fa00-7d94-4713-908c-61c3ebbf642d INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 266.4041ms 
+ [2024-07-30 16:38:34.234 7d3bd2a7-c6c8-4b12-a384-c745b9482898 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 71 
+ [2024-07-30 16:38:34.242 7d3bd2a7-c6c8-4b12-a384-c745b9482898 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:38:34.271 7d3bd2a7-c6c8-4b12-a384-c745b9482898 INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:38:34.467 7d3bd2a7-c6c8-4b12-a384-c745b9482898 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:38:35.883 7d3bd2a7-c6c8-4b12-a384-c745b9482898 INF] Iniciando creacion de Cliente 
+ [2024-07-30 16:38:37.257 7d3bd2a7-c6c8-4b12-a384-c745b9482898 INF] Error cliente existente en la base de datos 
+ [2024-07-30 16:38:37.271 7d3bd2a7-c6c8-4b12-a384-c745b9482898 INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2796.4704ms. 
+ [2024-07-30 16:38:37.280 7d3bd2a7-c6c8-4b12-a384-c745b9482898 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-30 16:38:37.310 7d3bd2a7-c6c8-4b12-a384-c745b9482898 INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 3030.3204ms 
+ [2024-07-30 16:38:37.311 7d3bd2a7-c6c8-4b12-a384-c745b9482898 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:38:37.327 7d3bd2a7-c6c8-4b12-a384-c745b9482898 INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 404 null application/problem+json; charset=utf-8 3093.7231ms 
+ [2024-07-30 16:39:06.898 aa27ded1-791e-4000-8f4f-42322baa52bf INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 71 
+ [2024-07-30 16:39:06.919 aa27ded1-791e-4000-8f4f-42322baa52bf INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:39:06.920 aa27ded1-791e-4000-8f4f-42322baa52bf INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:39:06.956 aa27ded1-791e-4000-8f4f-42322baa52bf INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:39:07.045 aa27ded1-791e-4000-8f4f-42322baa52bf INF] Iniciando creacion de Cliente 
+ [2024-07-30 16:39:07.074 aa27ded1-791e-4000-8f4f-42322baa52bf INF] Error cliente existente en la base de datos 
+ [2024-07-30 16:39:07.075 aa27ded1-791e-4000-8f4f-42322baa52bf INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 118.6767ms. 
+ [2024-07-30 16:39:07.076 aa27ded1-791e-4000-8f4f-42322baa52bf INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-30 16:39:07.076 aa27ded1-791e-4000-8f4f-42322baa52bf INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 155.5083ms 
+ [2024-07-30 16:39:07.077 aa27ded1-791e-4000-8f4f-42322baa52bf INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:39:07.078 aa27ded1-791e-4000-8f4f-42322baa52bf INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 404 null application/problem+json; charset=utf-8 179.8476ms 
+ [2024-07-30 16:39:18.811 4e4088bf-2f06-43df-bd18-7c83b9ba4ee8 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 71 
+ [2024-07-30 16:39:18.812 4e4088bf-2f06-43df-bd18-7c83b9ba4ee8 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:39:18.812 4e4088bf-2f06-43df-bd18-7c83b9ba4ee8 INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:39:18.839 4e4088bf-2f06-43df-bd18-7c83b9ba4ee8 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:39:18.857 4e4088bf-2f06-43df-bd18-7c83b9ba4ee8 INF] Iniciando creacion de Cliente 
+ [2024-07-30 16:39:19.062 4e4088bf-2f06-43df-bd18-7c83b9ba4ee8 INF] Finalizando creacion de Example exitosamente 
+ [2024-07-30 16:39:19.063 4e4088bf-2f06-43df-bd18-7c83b9ba4ee8 INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 223.4187ms. 
+ [2024-07-30 16:39:19.067 4e4088bf-2f06-43df-bd18-7c83b9ba4ee8 INF] Executing StatusCodeResult, setting HTTP status code 200 
+ [2024-07-30 16:39:19.067 4e4088bf-2f06-43df-bd18-7c83b9ba4ee8 INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 254.7898ms 
+ [2024-07-30 16:39:19.067 4e4088bf-2f06-43df-bd18-7c83b9ba4ee8 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:39:19.068 4e4088bf-2f06-43df-bd18-7c83b9ba4ee8 INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 200 0 null 256.7693ms 
+ [2024-07-30 16:40:22.122 82f1aa4c-6407-492b-acbd-3bc21de846a6 INF] Now listening on: https://localhost:7288 
+ [2024-07-30 16:40:22.202 d37db0e6-fe36-4e1f-b166-cf33285e4b6a INF] Now listening on: http://localhost:5246 
+ [2024-07-30 16:40:22.207 62b212ea-7c17-44a7-9264-d05cf83681d5 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-30 16:40:22.207 16923643-0b64-45c7-982a-8176b827a195 INF] Hosting environment: Development 
+ [2024-07-30 16:40:22.207 1a807fdf-22c9-49cc-ae8c-e572cad67f04 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-30 16:40:23.125 5606bd85-73f4-4e15-905e-fe180ecd7076 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-30 16:40:23.731 5606bd85-73f4-4e15-905e-fe180ecd7076 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 611.4653ms 
+ [2024-07-30 16:40:23.761 28752c0a-13ae-4c71-804d-ef10f719ab2e INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-30 16:40:23.770 28752c0a-13ae-4c71-804d-ef10f719ab2e INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.3878ms 
+ [2024-07-30 16:40:23.881 221042ec-f1aa-4018-9e1c-34a48b54afc6 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-30 16:40:24.085 221042ec-f1aa-4018-9e1c-34a48b54afc6 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 204.8726ms 
+ [2024-07-30 16:40:44.493 704f7045-3abc-49d0-b7d7-2fd79cb0bbf1 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 71 
+ [2024-07-30 16:40:44.501 704f7045-3abc-49d0-b7d7-2fd79cb0bbf1 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:40:44.530 704f7045-3abc-49d0-b7d7-2fd79cb0bbf1 INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:40:44.736 704f7045-3abc-49d0-b7d7-2fd79cb0bbf1 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:40:46.170 704f7045-3abc-49d0-b7d7-2fd79cb0bbf1 INF] Iniciando creacion de Cliente 
+ [2024-07-30 16:40:47.721 704f7045-3abc-49d0-b7d7-2fd79cb0bbf1 INF] Error cliente existente en la base de datos 
+ [2024-07-30 16:40:47.760 704f7045-3abc-49d0-b7d7-2fd79cb0bbf1 INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2998.0642ms. 
+ [2024-07-30 16:40:47.780 704f7045-3abc-49d0-b7d7-2fd79cb0bbf1 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-30 16:40:47.807 704f7045-3abc-49d0-b7d7-2fd79cb0bbf1 INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 3267.0089ms 
+ [2024-07-30 16:40:47.808 704f7045-3abc-49d0-b7d7-2fd79cb0bbf1 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:40:47.820 704f7045-3abc-49d0-b7d7-2fd79cb0bbf1 INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 404 null application/problem+json; charset=utf-8 3326.7665ms 
+ [2024-07-30 16:57:52.968 27c06dc8-efb7-4b55-a25a-52978ce2a540 INF] Now listening on: https://localhost:7288 
+ [2024-07-30 16:57:53.070 bbea6186-41c9-4fb3-a423-f848967fc9b5 INF] Now listening on: http://localhost:5246 
+ [2024-07-30 16:57:53.073 810f2aac-c84e-4130-9eec-a4c234e36dcd INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-30 16:57:53.073 35655216-a6d9-4a2a-b509-dd984c9d01e5 INF] Hosting environment: Development 
+ [2024-07-30 16:57:53.073 49a951e1-987e-45bb-967b-7a1f2e616a28 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-30 16:57:53.719 2ec10d0d-9c23-4ea7-aa43-7c172ad6435d INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-30 16:57:54.345 2ec10d0d-9c23-4ea7-aa43-7c172ad6435d INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 631.8248ms 
+ [2024-07-30 16:57:54.350 1033637b-232c-4ff0-957a-5fcf5767ce77 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-30 16:57:54.357 1033637b-232c-4ff0-957a-5fcf5767ce77 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.0409ms 
+ [2024-07-30 16:57:54.471 ba96e354-ab25-4bef-8e73-715db772ecde INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-30 16:57:54.672 ba96e354-ab25-4bef-8e73-715db772ecde INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 200.4035ms 
+ [2024-07-30 16:58:11.675 ddb5350e-2eaa-4091-9c9b-cbc42b7e4b53 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 71 
+ [2024-07-30 16:58:11.685 ddb5350e-2eaa-4091-9c9b-cbc42b7e4b53 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:58:11.718 ddb5350e-2eaa-4091-9c9b-cbc42b7e4b53 INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:58:11.917 ddb5350e-2eaa-4091-9c9b-cbc42b7e4b53 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:58:13.469 ddb5350e-2eaa-4091-9c9b-cbc42b7e4b53 INF] Iniciando creacion de Cliente 
+ [2024-07-30 16:58:14.906 ddb5350e-2eaa-4091-9c9b-cbc42b7e4b53 INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 2982.6809ms. 
+ [2024-07-30 16:58:14.917 ddb5350e-2eaa-4091-9c9b-cbc42b7e4b53 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+ [2024-07-30 16:58:14.949 ddb5350e-2eaa-4091-9c9b-cbc42b7e4b53 INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 3222.7851ms 
+ [2024-07-30 16:58:14.950 ddb5350e-2eaa-4091-9c9b-cbc42b7e4b53 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:58:14.967 ddb5350e-2eaa-4091-9c9b-cbc42b7e4b53 INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 400 null application/problem+json; charset=utf-8 3292.66ms 
+ [2024-07-30 16:59:10.385 214c48c4-71db-4cc0-870e-6c2aa889263b INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 71 
+ [2024-07-30 16:59:10.404 214c48c4-71db-4cc0-870e-6c2aa889263b INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:59:10.405 214c48c4-71db-4cc0-870e-6c2aa889263b INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 16:59:10.446 214c48c4-71db-4cc0-870e-6c2aa889263b INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 16:59:10.533 214c48c4-71db-4cc0-870e-6c2aa889263b INF] Iniciando creacion de Cliente 
+ [2024-07-30 16:59:10.771 214c48c4-71db-4cc0-870e-6c2aa889263b INF] Finalizando creacion de Example exitosamente 
+ [2024-07-30 16:59:10.772 214c48c4-71db-4cc0-870e-6c2aa889263b INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 325.858ms. 
+ [2024-07-30 16:59:10.776 214c48c4-71db-4cc0-870e-6c2aa889263b INF] Executing StatusCodeResult, setting HTTP status code 200 
+ [2024-07-30 16:59:10.777 214c48c4-71db-4cc0-870e-6c2aa889263b INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 371.8174ms 
+ [2024-07-30 16:59:10.777 214c48c4-71db-4cc0-870e-6c2aa889263b INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 16:59:10.777 214c48c4-71db-4cc0-870e-6c2aa889263b INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 200 0 null 392.9596ms 
+ [2024-07-30 17:03:30.264 ef427bcd-43e5-428a-a5de-1db11f689133 INF] Now listening on: https://localhost:7288 
+ [2024-07-30 17:03:30.372 18e3e00e-3138-4ffe-b6da-f3f990a800e3 INF] Now listening on: http://localhost:5246 
+ [2024-07-30 17:03:30.375 116a1dae-1ba3-4f03-be89-3655d92af4a1 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-30 17:03:30.375 d7247a42-8f32-4879-b550-a6e224392c2e INF] Hosting environment: Development 
+ [2024-07-30 17:03:30.376 82e3527b-d98f-41b8-9faf-20b0a42708fb INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-30 17:03:30.954 e952121d-d757-4ae3-ab5f-43c0936923e7 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-30 17:03:33.458 e952121d-d757-4ae3-ab5f-43c0936923e7 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-30 17:03:33.740 e952121d-d757-4ae3-ab5f-43c0936923e7 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2791.6783ms 
+ [2024-07-30 17:03:33.771 9f237584-141b-4a33-993f-a9c223040b5a INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-30 17:03:33.783 9f237584-141b-4a33-993f-a9c223040b5a INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.8028ms 
+ [2024-07-30 17:03:33.914 29555717-ea04-407b-b332-be0969983764 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-30 17:03:34.110 29555717-ea04-407b-b332-be0969983764 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 196.6037ms 
+ [2024-07-30 17:03:58.791 7d25997b-a887-460d-9ff1-db60fd2312c2 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 71 
+ [2024-07-30 17:03:58.805 7d25997b-a887-460d-9ff1-db60fd2312c2 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 17:03:58.833 7d25997b-a887-460d-9ff1-db60fd2312c2 INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 17:03:59.043 7d25997b-a887-460d-9ff1-db60fd2312c2 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 17:04:00.500 7d25997b-a887-460d-9ff1-db60fd2312c2 INF] Iniciando creacion de Cliente 
+ [2024-07-30 17:04:01.980 7d25997b-a887-460d-9ff1-db60fd2312c2 INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 2930.8146ms. 
+ [2024-07-30 17:04:01.992 7d25997b-a887-460d-9ff1-db60fd2312c2 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+ [2024-07-30 17:04:02.027 7d25997b-a887-460d-9ff1-db60fd2312c2 INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 3189.7116ms 
+ [2024-07-30 17:04:02.028 7d25997b-a887-460d-9ff1-db60fd2312c2 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 17:04:02.047 7d25997b-a887-460d-9ff1-db60fd2312c2 INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 400 null application/problem+json; charset=utf-8 3269.6061ms 
+ [2024-07-30 17:04:15.827 165a5439-6cd3-4087-a3ed-47d4dfff92ce INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 71 
+ [2024-07-30 17:04:15.830 165a5439-6cd3-4087-a3ed-47d4dfff92ce INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 17:04:15.831 165a5439-6cd3-4087-a3ed-47d4dfff92ce INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-07-30 17:04:15.863 165a5439-6cd3-4087-a3ed-47d4dfff92ce INF] Executing action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-30 17:04:15.945 165a5439-6cd3-4087-a3ed-47d4dfff92ce INF] Iniciando creacion de Cliente 
+ [2024-07-30 17:04:16.185 165a5439-6cd3-4087-a3ed-47d4dfff92ce INF] Finalizando creacion de Example exitosamente 
+ [2024-07-30 17:04:16.186 165a5439-6cd3-4087-a3ed-47d4dfff92ce INF] Executed action method BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 322.3376ms. 
+ [2024-07-30 17:04:16.190 165a5439-6cd3-4087-a3ed-47d4dfff92ce INF] Executing StatusCodeResult, setting HTTP status code 200 
+ [2024-07-30 17:04:16.191 165a5439-6cd3-4087-a3ed-47d4dfff92ce INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API) in 359.2246ms 
+ [2024-07-30 17:04:16.191 165a5439-6cd3-4087-a3ed-47d4dfff92ce INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCliente (BNA.EF1.API)' 
+ [2024-07-30 17:04:16.191 165a5439-6cd3-4087-a3ed-47d4dfff92ce INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 200 0 null 364.5609ms 
+ 

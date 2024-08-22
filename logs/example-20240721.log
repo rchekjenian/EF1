@@ -1,0 +1,301 @@
+[2024-07-21 22:09:02.587 3c12a0a8-5c79-4d25-b2bb-ebcf3e39cbd3 INF] Now listening on: https://localhost:7288 
+ [2024-07-21 22:09:02.668 0e545945-665e-46e4-9fcf-5d2689bd07e5 INF] Now listening on: http://localhost:5246 
+ [2024-07-21 22:09:02.672 8b24ad7a-dfa0-4334-b2e8-d17aade147ba INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-21 22:09:02.673 c88d969d-da64-4502-9c3c-25149bb687ed INF] Hosting environment: Development 
+ [2024-07-21 22:09:02.673 8ea6e70c-759b-4bd3-8e3a-36da2ef39e92 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-21 22:09:03.248 c2249250-0af7-4bbb-94a9-d4427fd13213 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-21 22:09:05.973 c2249250-0af7-4bbb-94a9-d4427fd13213 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-21 22:09:06.352 c2249250-0af7-4bbb-94a9-d4427fd13213 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 3110.1197ms 
+ [2024-07-21 22:09:06.376 c2acaa3f-0403-47e7-bf20-b86f791c8738 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-21 22:09:06.387 c2acaa3f-0403-47e7-bf20-b86f791c8738 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.3744ms 
+ [2024-07-21 22:09:06.487 26f60556-dee1-4c59-b8ef-f542e9981a0a INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-21 22:09:06.668 26f60556-dee1-4c59-b8ef-f542e9981a0a INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 181.4873ms 
+ [2024-07-21 22:15:43.456 395c1b82-260b-4df4-9185-c6302f0305fe INF] Now listening on: https://localhost:7288 
+ [2024-07-21 22:15:43.546 13b7acab-04ca-458c-8704-2b8a9ca834b9 INF] Now listening on: http://localhost:5246 
+ [2024-07-21 22:15:43.549 5719f546-81f2-4c3b-b6be-39b0cc3768ec INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-21 22:15:43.550 941370ec-3874-4c78-9eaa-4d24e68fa33a INF] Hosting environment: Development 
+ [2024-07-21 22:15:43.550 52c01cf9-0fa4-4be3-831d-fb019921875a INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-21 22:15:44.273 9ee1aeb9-c4b9-4630-9cfb-f66efb1e862a INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-21 22:15:44.936 9ee1aeb9-c4b9-4630-9cfb-f66efb1e862a INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 672.8159ms 
+ [2024-07-21 22:15:44.945 7398858b-0262-4f88-870d-53b443f225b9 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-21 22:15:44.961 7398858b-0262-4f88-870d-53b443f225b9 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 15.8969ms 
+ [2024-07-21 22:15:45.056 0cbf900a-f40b-4805-a1a1-e85b8f69a00a INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-21 22:15:45.250 0cbf900a-f40b-4805-a1a1-e85b8f69a00a INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 194.1875ms 
+ [2024-07-21 22:16:21.799 8b927de3-72d1-4799-8d35-bdcd3438bb94 INF] Now listening on: https://localhost:7288 
+ [2024-07-21 22:16:21.895 588d6eab-cd40-4b25-b75b-8a0f1b56eaca INF] Now listening on: http://localhost:5246 
+ [2024-07-21 22:16:21.912 5634f559-a822-42fc-8842-458d6e28b117 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-21 22:16:21.912 bed895bc-7bd6-4daa-9deb-114b301bd68e INF] Hosting environment: Development 
+ [2024-07-21 22:16:21.912 2054b801-357d-4ce7-8d92-5721eb6f413b INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-21 22:16:22.394 fb509f23-b432-447f-8d2a-7bb327813f41 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-21 22:16:23.046 fb509f23-b432-447f-8d2a-7bb327813f41 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 656.927ms 
+ [2024-07-21 22:16:23.078 e287b7b4-670a-4442-b010-5fb1e5cd137d INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-21 22:16:23.095 e287b7b4-670a-4442-b010-5fb1e5cd137d INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 14.2983ms 
+ [2024-07-21 22:16:23.193 09767f2b-efd6-43da-9b69-2fd4817cb849 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-21 22:16:23.378 09767f2b-efd6-43da-9b69-2fd4817cb849 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 185.7407ms 
+ [2024-07-21 22:17:03.841 f2599a34-a64a-419b-a4b7-4b64e1280ecf INF] Request starting HTTP/2 POST https://localhost:7288/api/Cuenta/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E/cuentas - application/json 93 
+ [2024-07-21 22:17:03.867 f2599a34-a64a-419b-a4b7-4b64e1280ecf INF] Executing endpoint 'BNA.EF1.API.Controllers.Cuenta.CreateCuenta (BNA.EF1.API)' 
+ [2024-07-21 22:17:03.896 f2599a34-a64a-419b-a4b7-4b64e1280ecf INF] Route matched with {action = "CreateCuenta", controller = "Cuenta"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCuenta(BNA.EF1.Application.Cuentas.Commands.CreateCuenta.CreateCuentaCommand) on controller BNA.EF1.API.Controllers.Cuenta (BNA.EF1.API). 
+ [2024-07-21 22:17:13.046 f2599a34-a64a-419b-a4b7-4b64e1280ecf INF] Executing action method BNA.EF1.API.Controllers.Cuenta.CreateCuenta (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-21 22:17:40.929 f2599a34-a64a-419b-a4b7-4b64e1280ecf INF] Iniciando creacion de Cuenta 
+ [2024-07-21 22:17:47.341 f2599a34-a64a-419b-a4b7-4b64e1280ecf ERR] Failed executing DbCommand (123ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (Size = 10), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cuentas] ([Id], [ClienteId], [CodigoSucursal], [NumeroCuenta], [Saldo], [TipoCuenta])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5); 
+ [2024-07-21 22:17:47.407 f2599a34-a64a-419b-a4b7-4b64e1280ecf ERR] An exception occurred in the database while saving changes for context type 'BNA.EF1.Infrastructure.Database.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Cuentas_Clientes_ClienteId". The conflict occurred in database "BNA.EF1", table "dbo.Clientes", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:6f5aec34-7306-43e2-aa5d-29f533863bb1
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Cuentas_Clientes_ClienteId". The conflict occurred in database "BNA.EF1", table "dbo.Clientes", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:6f5aec34-7306-43e2-aa5d-29f533863bb1
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2024-07-21 22:17:47.840 f2599a34-a64a-419b-a4b7-4b64e1280ecf ERR] Error al tratar de crear el example 
+ [2024-07-21 22:17:48.339 f2599a34-a64a-419b-a4b7-4b64e1280ecf WRN] Excepción no manejada para el Request CreateCuentaCommand {"NumeroCuenta":"string","CodigoSucursal":"string","TipoCuenta":0,"Saldo":0} 
+ [2024-07-21 22:17:48.602 f2599a34-a64a-419b-a4b7-4b64e1280ecf ERR] Se detectó una excepción DbUpdateException 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Cuentas_Clientes_ClienteId". The conflict occurred in database "BNA.EF1", table "dbo.Clientes", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:6f5aec34-7306-43e2-aa5d-29f533863bb1
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BNA.EF1.Infrastructure.Repositories.Repository`1.AddAsync(T entity, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Infrastructure\Repositories\Repository.cs:line 31
+   at BNA.EF1.Application.Cuentas.Commands.CreateCuenta.CreateCuentaCommandHandler.Handle(CreateCuentaCommand request, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Cuentas\Commands\CreateCuenta\CreateCuentaCommand.cs:line 58
+   at BNA.EF1.Application.Common.Behaviours.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\ValidationBehavior.cs:line 25
+   at BNA.EF1.Application.Common.Behaviours.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\UnhandledExceptionBehavior.cs:line 20
+   at BNA.EF1.API.Controllers.Cuenta.CreateCuenta(CreateCuentaCommand request) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API\Controllers\CuentaController.cs:line 63
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2024-07-21 22:17:48.676 f2599a34-a64a-419b-a4b7-4b64e1280ecf INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-21 22:17:48.700 f2599a34-a64a-419b-a4b7-4b64e1280ecf INF] Executed action BNA.EF1.API.Controllers.Cuenta.CreateCuenta (BNA.EF1.API) in 44796.1138ms 
+ [2024-07-21 22:17:48.701 f2599a34-a64a-419b-a4b7-4b64e1280ecf INF] Executed endpoint 'BNA.EF1.API.Controllers.Cuenta.CreateCuenta (BNA.EF1.API)' 
+ [2024-07-21 22:17:48.709 f2599a34-a64a-419b-a4b7-4b64e1280ecf INF] Request finished HTTP/2 POST https://localhost:7288/api/Cuenta/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E/cuentas - 500 null application/problem+json; charset=utf-8 44867.6333ms 
+ [2024-07-21 22:17:57.894 d09e792f-6e18-4d7f-b788-254c67796e81 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cuenta/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E/cuentas - application/json 93 
+ [2024-07-21 22:17:57.899 d09e792f-6e18-4d7f-b788-254c67796e81 INF] Executing endpoint 'BNA.EF1.API.Controllers.Cuenta.CreateCuenta (BNA.EF1.API)' 
+ [2024-07-21 22:17:57.901 d09e792f-6e18-4d7f-b788-254c67796e81 INF] Route matched with {action = "CreateCuenta", controller = "Cuenta"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCuenta(BNA.EF1.Application.Cuentas.Commands.CreateCuenta.CreateCuentaCommand) on controller BNA.EF1.API.Controllers.Cuenta (BNA.EF1.API). 
+ [2024-07-21 22:18:18.952 d09e792f-6e18-4d7f-b788-254c67796e81 INF] Executing action method BNA.EF1.API.Controllers.Cuenta.CreateCuenta (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-21 22:22:14.943 e1813fba-ce7c-4ea5-a669-a38c0f46504d INF] Now listening on: https://localhost:7288 
+ [2024-07-21 22:22:15.036 435d3652-bc8a-41ec-912b-664ecdff06b5 INF] Now listening on: http://localhost:5246 
+ [2024-07-21 22:22:15.039 ee3080c1-6531-4ff2-95c5-258194b023d3 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-21 22:22:15.040 0e7bb821-e225-47ad-8561-9ca1debd7b36 INF] Hosting environment: Development 
+ [2024-07-21 22:22:15.040 4d22e446-94ea-4506-b9aa-ec3a23fe24c4 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-21 22:22:16.039 e67f379f-76c1-400d-ad65-e9045a5fa054 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-21 22:22:18.672 e67f379f-76c1-400d-ad65-e9045a5fa054 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-21 22:22:18.991 e67f379f-76c1-400d-ad65-e9045a5fa054 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2945.5414ms 
+ [2024-07-21 22:22:19.016 25616ccb-2724-402e-88b5-ab153743a757 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-21 22:22:19.029 25616ccb-2724-402e-88b5-ab153743a757 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 13.4121ms 
+ [2024-07-21 22:22:19.133 a5cc24cd-abf0-4151-a579-22fea576a7fe INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-21 22:22:19.329 a5cc24cd-abf0-4151-a579-22fea576a7fe INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 195.8865ms 
+ [2024-07-21 22:26:29.518 1eb0204f-65c0-4f86-b080-82858955b39e INF] Now listening on: https://localhost:7288 
+ [2024-07-21 22:26:29.616 fb89e7ac-6e7a-4212-868f-84389eef5a9e INF] Now listening on: http://localhost:5246 
+ [2024-07-21 22:26:29.623 fb02a2e4-7172-4e54-a093-4092a68aa29c INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-21 22:26:29.624 968a3f11-e185-4f4b-b1cc-1575b42ca161 INF] Hosting environment: Development 
+ [2024-07-21 22:26:29.624 f58fceb7-4f5f-47e8-b92c-d095b790ec05 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-21 22:26:30.402 24cd7154-da2f-4f2a-ad81-286c7597fdc7 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-21 22:26:32.934 24cd7154-da2f-4f2a-ad81-286c7597fdc7 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-21 22:26:33.188 24cd7154-da2f-4f2a-ad81-286c7597fdc7 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2791.5006ms 
+ [2024-07-21 22:26:33.211 481798a4-7fd1-4ebd-8728-4e58e619cd53 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-21 22:26:33.223 481798a4-7fd1-4ebd-8728-4e58e619cd53 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.5246ms 
+ [2024-07-21 22:26:33.342 653f3434-d88a-4180-8950-060e2c74d503 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-21 22:26:33.536 653f3434-d88a-4180-8950-060e2c74d503 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 194.4248ms 
+ [2024-07-21 22:27:32.195 ec56b2f9-97e7-4bd2-9f6d-711d222c62f3 INF] Now listening on: https://localhost:7288 
+ [2024-07-21 22:27:32.288 7678d9e5-26af-41db-909c-02ebaea32a8e INF] Now listening on: http://localhost:5246 
+ [2024-07-21 22:27:32.294 c78ef71c-73f7-4563-a8d4-773cb990b4ab INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-21 22:27:32.295 5e3bfc1b-1342-47a3-abcc-392181846207 INF] Hosting environment: Development 
+ [2024-07-21 22:27:32.295 6f0bae09-def0-4bca-be7b-76973b8d12a0 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-21 22:27:33.016 afd7c063-451c-45c3-8943-f36fdb1a3815 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-21 22:27:35.533 afd7c063-451c-45c3-8943-f36fdb1a3815 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-21 22:27:35.795 afd7c063-451c-45c3-8943-f36fdb1a3815 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2785.2749ms 
+ [2024-07-21 22:27:35.834 272eeff5-e036-4956-b623-f71a1c440a4e INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-21 22:27:35.944 272eeff5-e036-4956-b623-f71a1c440a4e INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 109.548ms 
+ [2024-07-21 22:27:36.041 b2a5a4d1-d6dc-42ea-a201-1592a45db5a4 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-21 22:27:36.209 b2a5a4d1-d6dc-42ea-a201-1592a45db5a4 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.611ms 
+ [2024-07-21 22:28:19.507 a399d6dd-31ef-4eed-a94d-4a47892084a3 INF] Request starting HTTP/2 POST https://localhost:7288/cuentas?clienteId=9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - application/json 93 
+ [2024-07-21 22:28:19.528 a399d6dd-31ef-4eed-a94d-4a47892084a3 INF] Executing endpoint 'BNA.EF1.API.Controllers.Cuenta.CreateCuenta (BNA.EF1.API)' 
+ [2024-07-21 22:28:19.563 a399d6dd-31ef-4eed-a94d-4a47892084a3 INF] Route matched with {action = "CreateCuenta", controller = "Cuenta"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCuenta(System.Guid, BNA.EF1.Application.Cuentas.Commands.CreateCuenta.CreateCuentaCommand) on controller BNA.EF1.API.Controllers.Cuenta (BNA.EF1.API). 
+ [2024-07-21 22:28:24.769 a399d6dd-31ef-4eed-a94d-4a47892084a3 INF] Executing action method BNA.EF1.API.Controllers.Cuenta.CreateCuenta (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-21 22:28:39.274 a399d6dd-31ef-4eed-a94d-4a47892084a3 INF] Iniciando creacion de Cuenta 
+ [2024-07-21 22:28:41.143 a399d6dd-31ef-4eed-a94d-4a47892084a3 ERR] Failed executing DbCommand (121ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (Size = 10), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cuentas] ([Id], [ClienteId], [CodigoSucursal], [NumeroCuenta], [Saldo], [TipoCuenta])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5); 
+ [2024-07-21 22:28:41.188 a399d6dd-31ef-4eed-a94d-4a47892084a3 ERR] An exception occurred in the database while saving changes for context type 'BNA.EF1.Infrastructure.Database.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Cuentas_Clientes_ClienteId". The conflict occurred in database "BNA.EF1", table "dbo.Clientes", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:a85775e2-4d8a-4be6-9138-ae14c6213fda
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Cuentas_Clientes_ClienteId". The conflict occurred in database "BNA.EF1", table "dbo.Clientes", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:a85775e2-4d8a-4be6-9138-ae14c6213fda
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2024-07-21 22:28:41.553 a399d6dd-31ef-4eed-a94d-4a47892084a3 ERR] Error al tratar de crear el example 
+ [2024-07-21 22:28:41.857 a399d6dd-31ef-4eed-a94d-4a47892084a3 WRN] Excepción no manejada para el Request CreateCuentaCommand {"NumeroCuenta":"string","CodigoSucursal":"string","TipoCuenta":0,"Saldo":0} 
+ [2024-07-21 22:28:42.101 a399d6dd-31ef-4eed-a94d-4a47892084a3 ERR] Se detectó una excepción DbUpdateException 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Cuentas_Clientes_ClienteId". The conflict occurred in database "BNA.EF1", table "dbo.Clientes", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:a85775e2-4d8a-4be6-9138-ae14c6213fda
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BNA.EF1.Infrastructure.Repositories.Repository`1.AddAsync(T entity, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Infrastructure\Repositories\Repository.cs:line 31
+   at BNA.EF1.Application.Cuentas.Commands.CreateCuenta.CreateCuentaCommandHandler.Handle(CreateCuentaCommand request, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Cuentas\Commands\CreateCuenta\CreateCuentaCommand.cs:line 59
+   at BNA.EF1.Application.Common.Behaviours.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\ValidationBehavior.cs:line 25
+   at BNA.EF1.Application.Common.Behaviours.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\UnhandledExceptionBehavior.cs:line 20
+   at BNA.EF1.API.Controllers.Cuenta.CreateCuenta(Guid clienteId, CreateCuentaCommand request) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API\Controllers\CuentaController.cs:line 63
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2024-07-21 22:28:42.160 a399d6dd-31ef-4eed-a94d-4a47892084a3 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-21 22:28:42.181 a399d6dd-31ef-4eed-a94d-4a47892084a3 INF] Executed action BNA.EF1.API.Controllers.Cuenta.CreateCuenta (BNA.EF1.API) in 22611.0035ms 
+ [2024-07-21 22:28:42.182 a399d6dd-31ef-4eed-a94d-4a47892084a3 INF] Executed endpoint 'BNA.EF1.API.Controllers.Cuenta.CreateCuenta (BNA.EF1.API)' 
+ [2024-07-21 22:28:42.191 a399d6dd-31ef-4eed-a94d-4a47892084a3 INF] Request finished HTTP/2 POST https://localhost:7288/cuentas?clienteId=9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - 500 null application/problem+json; charset=utf-8 22684.6006ms 
+ [2024-07-21 22:31:08.994 747462f8-e7f6-4a55-a761-36506c564a26 INF] Now listening on: https://localhost:7288 
+ [2024-07-21 22:31:09.071 b8b1be90-76c0-4b94-8d85-841fb69dd3ea INF] Now listening on: http://localhost:5246 
+ [2024-07-21 22:31:09.074 4f6f934f-17ca-4f64-b9a5-74e9d2b7ca66 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-21 22:31:09.074 0c8354e7-44ff-4090-92bd-2b1d040006ef INF] Hosting environment: Development 
+ [2024-07-21 22:31:09.074 0b2d42df-20cd-4a37-a967-ee4e918005cb INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-21 22:31:09.745 f02f39a5-c3c0-404d-accd-100edf44f374 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-21 22:31:12.282 f02f39a5-c3c0-404d-accd-100edf44f374 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-21 22:31:12.531 f02f39a5-c3c0-404d-accd-100edf44f374 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2792.7208ms 
+ [2024-07-21 22:31:12.558 476c8ded-a0a6-4183-a7d9-6df5b225b0e7 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-21 22:31:12.568 476c8ded-a0a6-4183-a7d9-6df5b225b0e7 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.4474ms 
+ [2024-07-21 22:31:12.700 5b62fbc9-8b3f-43da-b3bf-effd6d4ceb2d INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-21 22:31:12.906 5b62fbc9-8b3f-43da-b3bf-effd6d4ceb2d INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 206.652ms 
+ 

@@ -1,0 +1,119 @@
+[2024-08-01 11:59:43.912 ad2e2391-37b5-44b4-ab9d-d4ac7f0221ea INF] Now listening on: https://localhost:7288 
+ [2024-08-01 11:59:44.485 e291a90e-b563-463c-a352-de7746ef122e INF] Now listening on: http://localhost:5246 
+ [2024-08-01 11:59:44.488 5279c394-2792-4760-9f2e-b0066efbde7c INF] Application started. Press Ctrl+C to shut down. 
+ [2024-08-01 11:59:44.489 d300ebd8-5b64-4688-a78b-9c5fa7fcee73 INF] Hosting environment: Development 
+ [2024-08-01 11:59:44.489 406d2b31-a6b0-44e8-9434-12cf16ae5826 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-08-01 11:59:45.272 4165531e-9190-4cc6-9478-eaa01b749fa9 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-08-01 11:59:45.913 4165531e-9190-4cc6-9478-eaa01b749fa9 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 647.4235ms 
+ [2024-08-01 11:59:45.986 0b0f81d9-f332-4f0f-9e51-36d6f4734fbd INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-08-01 11:59:45.992 0b0f81d9-f332-4f0f-9e51-36d6f4734fbd INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.1899ms 
+ [2024-08-01 11:59:46.208 98edf8fb-23c6-4427-855b-fd1e1949ec4a INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-08-01 11:59:46.412 98edf8fb-23c6-4427-855b-fd1e1949ec4a INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 204.6748ms 
+ [2024-08-01 12:08:57.599 b95f789f-6088-4bee-8c86-92d711aa1359 INF] Request starting HTTP/2 GET https://localhost:7288/api/cuenta/2020 - null null 
+ [2024-08-01 12:08:59.894 b95f789f-6088-4bee-8c86-92d711aa1359 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 12:08:59.903 b95f789f-6088-4bee-8c86-92d711aa1359 INF] Executing endpoint 'BNA.EF1.API.Controllers.CuentaController.GetCuentaQueryNroCuenta (BNA.EF1.API)' 
+ [2024-08-01 12:08:59.944 b95f789f-6088-4bee-8c86-92d711aa1359 INF] Route matched with {action = "GetCuentaQueryNroCuenta", controller = "Cuenta"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Cuentas.Queries.GetCuenta.GetCuentaQueryNroCuenta]] GetCuentaQueryNroCuenta(System.String) on controller BNA.EF1.API.Controllers.CuentaController (BNA.EF1.API). 
+ [2024-08-01 12:09:00.237 b95f789f-6088-4bee-8c86-92d711aa1359 INF] Executing action method BNA.EF1.API.Controllers.CuentaController.GetCuentaQueryNroCuenta (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-08-01 12:09:02.174 b95f789f-6088-4bee-8c86-92d711aa1359 INF] Iniciando consulta de Example por id 2020 
+ [2024-08-01 12:09:04.171 b95f789f-6088-4bee-8c86-92d711aa1359 INF] Finalizando consulta de Example por id 2020 
+ [2024-08-01 12:09:04.183 b95f789f-6088-4bee-8c86-92d711aa1359 INF] Executed action method BNA.EF1.API.Controllers.CuentaController.GetCuentaQueryNroCuenta (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3937.3514ms. 
+ [2024-08-01 12:09:04.194 b95f789f-6088-4bee-8c86-92d711aa1359 INF] Executing OkObjectResult, writing value of type 'BNA.EF1.Application.Cuentas.Queries.GetCuenta.GetCuentaDto'. 
+ [2024-08-01 12:09:04.241 b95f789f-6088-4bee-8c86-92d711aa1359 INF] Executed action BNA.EF1.API.Controllers.CuentaController.GetCuentaQueryNroCuenta (BNA.EF1.API) in 4284.4258ms 
+ [2024-08-01 12:09:04.247 b95f789f-6088-4bee-8c86-92d711aa1359 INF] Executed endpoint 'BNA.EF1.API.Controllers.CuentaController.GetCuentaQueryNroCuenta (BNA.EF1.API)' 
+ [2024-08-01 12:09:04.278 b95f789f-6088-4bee-8c86-92d711aa1359 INF] Request finished HTTP/2 GET https://localhost:7288/api/cuenta/2020 - 200 null application/json; charset=utf-8 6679.896ms 
+ [2024-08-01 12:10:52.089 8a507067-6b74-428d-828a-75113315c9ee INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-08-01 12:10:52.117 8a507067-6b74-428d-828a-75113315c9ee INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 27.9192ms 
+ [2024-08-01 12:11:15.107 26c9aa2b-add8-4a77-83fe-e808edd38dad INF] Request starting HTTP/2 GET https://localhost:7288/api/cLIENTE/20304004321/CUENTAS - null null 
+ [2024-08-01 12:11:17.330 26c9aa2b-add8-4a77-83fe-e808edd38dad WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 12:11:17.332 26c9aa2b-add8-4a77-83fe-e808edd38dad INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.GetClientesCuentasQuery (BNA.EF1.API)' 
+ [2024-08-01 12:11:17.345 26c9aa2b-add8-4a77-83fe-e808edd38dad INF] Route matched with {action = "GetClientesCuentasQuery", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]]] GetClientesCuentasQuery(Double) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-08-01 12:11:17.405 26c9aa2b-add8-4a77-83fe-e808edd38dad INF] Executing action method BNA.EF1.API.Controllers.ClienteController.GetClientesCuentasQuery (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-08-01 12:11:17.764 26c9aa2b-add8-4a77-83fe-e808edd38dad INF] Executed action method BNA.EF1.API.Controllers.ClienteController.GetClientesCuentasQuery (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 358.4798ms. 
+ [2024-08-01 12:11:17.766 26c9aa2b-add8-4a77-83fe-e808edd38dad INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BNA.EF1.Application.Cuentas.Queries.GetCuenta.GetCuentaDto, BNA.EF1.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2024-08-01 12:11:17.768 26c9aa2b-add8-4a77-83fe-e808edd38dad INF] Executed action BNA.EF1.API.Controllers.ClienteController.GetClientesCuentasQuery (BNA.EF1.API) in 422.6462ms 
+ [2024-08-01 12:11:17.769 26c9aa2b-add8-4a77-83fe-e808edd38dad INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.GetClientesCuentasQuery (BNA.EF1.API)' 
+ [2024-08-01 12:11:17.771 26c9aa2b-add8-4a77-83fe-e808edd38dad INF] Request finished HTTP/2 GET https://localhost:7288/api/cLIENTE/20304004321/CUENTAS - 200 null application/json; charset=utf-8 2664.7559ms 
+ [2024-08-01 14:47:57.569 5b58a038-de05-4433-9598-0c08755652b6 INF] Request starting HTTP/2 GET https://localhost:7288/api/cLIENTE/20304004321/CUENTAS - null null 
+ [2024-08-01 14:47:59.776 5b58a038-de05-4433-9598-0c08755652b6 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:47:59.779 5b58a038-de05-4433-9598-0c08755652b6 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.GetClientesCuentasQuery (BNA.EF1.API)' 
+ [2024-08-01 14:47:59.780 5b58a038-de05-4433-9598-0c08755652b6 INF] Route matched with {action = "GetClientesCuentasQuery", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]]] GetClientesCuentasQuery(Double) on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-08-01 14:47:59.846 5b58a038-de05-4433-9598-0c08755652b6 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.GetClientesCuentasQuery (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-08-01 14:47:59.953 5b58a038-de05-4433-9598-0c08755652b6 INF] Executed action method BNA.EF1.API.Controllers.ClienteController.GetClientesCuentasQuery (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 106.7408ms. 
+ [2024-08-01 14:47:59.954 5b58a038-de05-4433-9598-0c08755652b6 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BNA.EF1.Application.Cuentas.Queries.GetCuenta.GetCuentaDto, BNA.EF1.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2024-08-01 14:47:59.955 5b58a038-de05-4433-9598-0c08755652b6 INF] Executed action BNA.EF1.API.Controllers.ClienteController.GetClientesCuentasQuery (BNA.EF1.API) in 174.9026ms 
+ [2024-08-01 14:47:59.955 5b58a038-de05-4433-9598-0c08755652b6 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.GetClientesCuentasQuery (BNA.EF1.API)' 
+ [2024-08-01 14:47:59.955 5b58a038-de05-4433-9598-0c08755652b6 INF] Request finished HTTP/2 GET https://localhost:7288/api/cLIENTE/20304004321/CUENTAS - 200 null application/json; charset=utf-8 2386.1825ms 
+ [2024-08-01 14:48:12.085 48afc6a6-3a2a-413e-85bc-d9c28fe2084f INF] Request starting HTTP/2 GET https://localhost:7288/api/listadoCLIENTES - null null 
+ [2024-08-01 14:48:14.246 48afc6a6-3a2a-413e-85bc-d9c28fe2084f WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:48:14.248 48afc6a6-3a2a-413e-85bc-d9c28fe2084f INF] Request finished HTTP/2 GET https://localhost:7288/api/listadoCLIENTES - 404 0 null 2162.3446ms 
+ [2024-08-01 14:48:14.249 48afc6a6-3a2a-413e-85bc-d9c28fe2084f INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7288/api/listadoCLIENTES, Response status code: 404 
+ [2024-08-01 14:49:33.017 41efb20c-662e-4b56-b768-920c90db4b58 INF] Request starting HTTP/2 GET https://localhost:7288/api/listadoCLIENTE - null null 
+ [2024-08-01 14:49:35.196 41efb20c-662e-4b56-b768-920c90db4b58 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:49:35.197 41efb20c-662e-4b56-b768-920c90db4b58 INF] Request finished HTTP/2 GET https://localhost:7288/api/listadoCLIENTE - 404 0 null 2179.5454ms 
+ [2024-08-01 14:49:35.197 41efb20c-662e-4b56-b768-920c90db4b58 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7288/api/listadoCLIENTE, Response status code: 404 
+ [2024-08-01 14:49:45.550 62aab446-0c88-4d34-a6a9-85700fc57fb2 INF] Request starting HTTP/2 GET https://localhost:7288/api/ CLIENTES/listadoCLIENTE - null null 
+ [2024-08-01 14:49:47.745 62aab446-0c88-4d34-a6a9-85700fc57fb2 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:49:47.746 62aab446-0c88-4d34-a6a9-85700fc57fb2 INF] Request finished HTTP/2 GET https://localhost:7288/api/ CLIENTES/listadoCLIENTE - 404 0 null 2197.1266ms 
+ [2024-08-01 14:49:47.746 62aab446-0c88-4d34-a6a9-85700fc57fb2 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7288/api/%20CLIENTES/listadoCLIENTE, Response status code: 404 
+ [2024-08-01 14:49:50.602 3a463983-1e53-43f9-b69c-f068a22fa461 INF] Request starting HTTP/2 GET https://localhost:7288/api/ CLIENTES/listadoCLIENTES - null null 
+ [2024-08-01 14:49:52.818 3a463983-1e53-43f9-b69c-f068a22fa461 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:49:52.818 3a463983-1e53-43f9-b69c-f068a22fa461 INF] Request finished HTTP/2 GET https://localhost:7288/api/ CLIENTES/listadoCLIENTES - 404 0 null 2215.5788ms 
+ [2024-08-01 14:49:52.818 3a463983-1e53-43f9-b69c-f068a22fa461 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7288/api/%20CLIENTES/listadoCLIENTES, Response status code: 404 
+ [2024-08-01 14:50:00.651 4671d92e-ebc3-48f2-8fbf-bf6e507e84e8 INF] Request starting HTTP/2 GET https://localhost:7288/api/CLIENTES/listadoCLIENTES - null null 
+ [2024-08-01 14:50:02.840 4671d92e-ebc3-48f2-8fbf-bf6e507e84e8 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:50:02.841 4671d92e-ebc3-48f2-8fbf-bf6e507e84e8 INF] Request finished HTTP/2 GET https://localhost:7288/api/CLIENTES/listadoCLIENTES - 404 0 null 2190.1119ms 
+ [2024-08-01 14:50:02.841 4671d92e-ebc3-48f2-8fbf-bf6e507e84e8 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7288/api/CLIENTES/listadoCLIENTES, Response status code: 404 
+ [2024-08-01 14:50:07.419 c227ac94-fb19-4f56-be57-8a13e86748bb INF] Request starting HTTP/2 GET https://localhost:7288/api/CLIENTES/listadoCLIENTE - null null 
+ [2024-08-01 14:50:09.634 c227ac94-fb19-4f56-be57-8a13e86748bb WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:50:09.635 c227ac94-fb19-4f56-be57-8a13e86748bb INF] Request finished HTTP/2 GET https://localhost:7288/api/CLIENTES/listadoCLIENTE - 404 0 null 2216.4112ms 
+ [2024-08-01 14:50:09.636 c227ac94-fb19-4f56-be57-8a13e86748bb INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7288/api/CLIENTES/listadoCLIENTE, Response status code: 404 
+ [2024-08-01 14:50:13.233 5c80ea35-f28a-441a-bf87-c095912ecbf2 INF] Request starting HTTP/2 GET https://localhost:7288/api/CLIENTES/listadoSCLIENTE - null null 
+ [2024-08-01 14:50:15.441 5c80ea35-f28a-441a-bf87-c095912ecbf2 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:50:15.442 5c80ea35-f28a-441a-bf87-c095912ecbf2 INF] Request finished HTTP/2 GET https://localhost:7288/api/CLIENTES/listadoSCLIENTE - 404 0 null 2208.554ms 
+ [2024-08-01 14:50:15.442 5c80ea35-f28a-441a-bf87-c095912ecbf2 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7288/api/CLIENTES/listadoSCLIENTE, Response status code: 404 
+ [2024-08-01 14:50:18.124 e739c70f-8882-49f0-a1ed-671f20e50d44 INF] Request starting HTTP/2 GET https://localhost:7288/api/CLIENTES/listadoSCLIENTES - null null 
+ [2024-08-01 14:50:20.288 e739c70f-8882-49f0-a1ed-671f20e50d44 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:50:20.288 e739c70f-8882-49f0-a1ed-671f20e50d44 INF] Request finished HTTP/2 GET https://localhost:7288/api/CLIENTES/listadoSCLIENTES - 404 0 null 2164.5825ms 
+ [2024-08-01 14:50:20.289 e739c70f-8882-49f0-a1ed-671f20e50d44 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7288/api/CLIENTES/listadoSCLIENTES, Response status code: 404 
+ [2024-08-01 14:54:50.402 5f31baa4-833c-4c03-ba8d-fce910320034 INF] Request starting HTTP/2 GET https://localhost:7288/api/CLIENTES/ListadoCientes - null null 
+ [2024-08-01 14:54:52.633 5f31baa4-833c-4c03-ba8d-fce910320034 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:54:52.634 5f31baa4-833c-4c03-ba8d-fce910320034 INF] Request finished HTTP/2 GET https://localhost:7288/api/CLIENTES/ListadoCientes - 404 0 null 2232.39ms 
+ [2024-08-01 14:54:52.634 5f31baa4-833c-4c03-ba8d-fce910320034 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7288/api/CLIENTES/ListadoCientes, Response status code: 404 
+ [2024-08-01 14:55:14.545 18e0ae17-b566-48be-93f6-76f01b9cdb60 INF] Request starting HTTP/2 GET https://localhost:7288/api/CLIENTES/ListadoCientes - null null 
+ [2024-08-01 14:55:16.789 18e0ae17-b566-48be-93f6-76f01b9cdb60 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:55:16.790 18e0ae17-b566-48be-93f6-76f01b9cdb60 INF] Request finished HTTP/2 GET https://localhost:7288/api/CLIENTES/ListadoCientes - 404 0 null 2244.9947ms 
+ [2024-08-01 14:55:16.791 18e0ae17-b566-48be-93f6-76f01b9cdb60 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7288/api/CLIENTES/ListadoCientes, Response status code: 404 
+ [2024-08-01 14:55:24.571 e64a757d-95f7-4928-8c59-e10b09ccf600 INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/ListadoCientes - null null 
+ [2024-08-01 14:55:26.751 e64a757d-95f7-4928-8c59-e10b09ccf600 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:55:26.752 e64a757d-95f7-4928-8c59-e10b09ccf600 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API)' 
+ [2024-08-01 14:55:26.759 e64a757d-95f7-4928-8c59-e10b09ccf600 INF] Route matched with {action = "GetClientesQuery", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]]] GetClientesQuery() on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-08-01 14:55:26.823 e64a757d-95f7-4928-8c59-e10b09ccf600 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-08-01 14:56:51.190 e64a757d-95f7-4928-8c59-e10b09ccf600 INF] Executed action method BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 84358.6994ms. 
+ [2024-08-01 14:56:51.190 e64a757d-95f7-4928-8c59-e10b09ccf600 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto, BNA.EF1.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2024-08-01 14:56:51.297 e64a757d-95f7-4928-8c59-e10b09ccf600 INF] Executed action BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API) in 84529.2968ms 
+ [2024-08-01 14:56:51.297 e64a757d-95f7-4928-8c59-e10b09ccf600 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API)' 
+ [2024-08-01 14:56:51.297 e64a757d-95f7-4928-8c59-e10b09ccf600 INF] Request finished HTTP/2 GET https://localhost:7288/api/Cliente/ListadoCientes - 200 null application/json; charset=utf-8 86718.9266ms 
+ [2024-08-01 14:56:59.254 71b96cab-acf5-4a5b-bdd0-96b391dd1095 INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/ListadoCientes - null null 
+ [2024-08-01 14:57:01.500 71b96cab-acf5-4a5b-bdd0-96b391dd1095 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:57:01.501 71b96cab-acf5-4a5b-bdd0-96b391dd1095 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API)' 
+ [2024-08-01 14:57:01.501 71b96cab-acf5-4a5b-bdd0-96b391dd1095 INF] Route matched with {action = "GetClientesQuery", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]]] GetClientesQuery() on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-08-01 14:57:01.552 71b96cab-acf5-4a5b-bdd0-96b391dd1095 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-08-01 14:57:39.537 71b96cab-acf5-4a5b-bdd0-96b391dd1095 INF] Executed action method BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 37981.0593ms. 
+ [2024-08-01 14:57:39.538 71b96cab-acf5-4a5b-bdd0-96b391dd1095 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto, BNA.EF1.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2024-08-01 14:57:39.581 71b96cab-acf5-4a5b-bdd0-96b391dd1095 INF] Executed action BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API) in 38076.5481ms 
+ [2024-08-01 14:57:39.581 71b96cab-acf5-4a5b-bdd0-96b391dd1095 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API)' 
+ [2024-08-01 14:57:39.582 71b96cab-acf5-4a5b-bdd0-96b391dd1095 INF] Request finished HTTP/2 GET https://localhost:7288/api/Cliente/ListadoCientes - 200 null application/json; charset=utf-8 40324.7565ms 
+ [2024-08-01 14:57:44.989 d5de7b8a-ce67-4e5b-be53-51bfeb35240d INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/ListadoCientes - null null 
+ [2024-08-01 14:57:47.211 d5de7b8a-ce67-4e5b-be53-51bfeb35240d WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-08-01 14:57:47.211 d5de7b8a-ce67-4e5b-be53-51bfeb35240d INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API)' 
+ [2024-08-01 14:57:47.211 d5de7b8a-ce67-4e5b-be53-51bfeb35240d INF] Route matched with {action = "GetClientesQuery", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]]] GetClientesQuery() on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-08-01 14:57:47.251 d5de7b8a-ce67-4e5b-be53-51bfeb35240d INF] Executing action method BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-08-01 15:04:52.761 bc1838c2-ddfd-41e7-a78f-331f5b9704f8 INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/ListadoCientes - null null 
+ [2024-08-01 15:04:53.904 bc1838c2-ddfd-41e7-a78f-331f5b9704f8 INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API)' 
+ [2024-08-01 15:04:55.050 bc1838c2-ddfd-41e7-a78f-331f5b9704f8 INF] Route matched with {action = "GetClientesQuery", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]]] GetClientesQuery() on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-08-01 15:04:55.095 bc1838c2-ddfd-41e7-a78f-331f5b9704f8 INF] Executing action method BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-08-01 15:04:59.368 735120ab-30db-410e-a8c1-7fe2cf54b10d INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/ListadoCientes - null null 
+ [2024-08-01 15:05:06.066 735120ab-30db-410e-a8c1-7fe2cf54b10d INF] Executing endpoint 'BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API)' 
+ [2024-08-01 15:05:06.066 735120ab-30db-410e-a8c1-7fe2cf54b10d INF] Route matched with {action = "GetClientesQuery", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]]] GetClientesQuery() on controller BNA.EF1.API.Controllers.ClienteController (BNA.EF1.API). 
+ [2024-08-01 15:05:06.204 735120ab-30db-410e-a8c1-7fe2cf54b10d INF] Executing action method BNA.EF1.API.Controllers.ClienteController.GetClientesQuery (BNA.EF1.API) - Validation state: "Valid" 
+ 

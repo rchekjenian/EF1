@@ -1,0 +1,67 @@
+﻿using BNA.EF1.Application.Common.Interfaces;
+using BNA.EF1.Domain.Clientes;
+using BNA.EF1.Domain.Common;
+using BNA.EF1.Domain.Common.Interfaces;
+using BNA.EF1.Domain.Cuentas;
+using BNA.EF1.Domain.Example;
+using BNA.EF1.Infrastructure.EventualConsistency;
+using MediatR;
+using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
+
+namespace BNA.EF1.Infrastructure.Database
+{
+    public sealed class ApplicationDbContext(DbContextOptions options
+        , IHttpContextAccessor _httpContextAccessor,
+         IPublisher _publisher)
+        : DbContext(options)
+    {
+        public DbSet<Cuenta> Cuentas { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<ExampleClass> Examples { get; set; }
+
+        //Con Domain Events - si no se usa comentar
+        //public async override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        // {
+        //var domainEvents = ChangeTracker.Entries<Entity>()
+        //      .SelectMany(entry => entry.Entity.PopDomainEvents())
+        //     .ToList();
+
+        //   if (IsUserWaitingOnline())
+        //  {
+        // AddDomainEventsToOfflineProcessingQueue(domainEvents);
+        //        return await base.SaveChangesAsync(cancellationToken);
+        //}
+
+        //   await PublishDomainEvents(domainEvents);
+        //   return await base.SaveChangesAsync(cancellationToken);
+        //}
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+
+            base.OnModelCreating(modelBuilder);
+        }
+        //   private bool IsUserWaitingOnline() => _httpContextAccessor.HttpContext is not null;
+
+        //      private async Task PublishDomainEvents(List<IDomainEvent> domainEvents)
+        //        {
+        //        foreach (var domainEvent in domainEvents)
+        //      {
+        //await _publisher.Publish(domainEvent);
+        // }
+        //}
+
+        //private void AddDomainEventsToOfflineProcessingQueue(List<IDomainEvent> domainEvents)
+        //{
+        //Queue<IDomainEvent> domainEventsQueue = _httpContextAccessor.HttpContext!.Items.TryGetValue(EventualConsistencyMiddleware.DomainEventsKey, out var value) &&
+        // value is Queue<IDomainEvent> existingDomainEvents
+        //           ? existingDomainEvents
+        //          : new ();
+
+        //        domainEvents.ForEach(domainEventsQueue.Enqueue);
+        //_httpContextAccessor.HttpContext.Items[EventualConsistencyMiddleware.DomainEventsKey] = domainEventsQueue;
+        //}
+    }
+}

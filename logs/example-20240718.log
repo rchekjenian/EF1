@@ -1,0 +1,573 @@
+[2024-07-18 11:48:33.241 d2b6c12e-8dc2-4344-99f6-710b835b8932 INF] Now listening on: https://localhost:7288 
+ [2024-07-18 11:48:33.311 6da0edf6-79fa-4415-bbbb-c92d49273737 INF] Now listening on: http://localhost:5246 
+ [2024-07-18 11:48:33.314 cae23169-7227-4c9a-b1f4-8606ca6ba15f INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 11:48:33.315 d3b7b367-b863-4e9d-a5cd-dd4029814777 INF] Hosting environment: Development 
+ [2024-07-18 11:48:33.315 ad08cc2c-c374-437e-b894-e880a5b80199 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 11:48:34.522 0154761d-2a0f-4ffb-bad0-f99a65bac284 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 11:48:37.262 0154761d-2a0f-4ffb-bad0-f99a65bac284 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 11:48:37.580 0154761d-2a0f-4ffb-bad0-f99a65bac284 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 3065.7306ms 
+ [2024-07-18 11:48:37.628 5c8262cf-9e6d-48e7-a513-86ea8c383abb INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 11:48:37.639 5c8262cf-9e6d-48e7-a513-86ea8c383abb INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.0475ms 
+ [2024-07-18 11:48:37.782 8f707e67-a0ef-4a34-af65-98153cd2720e INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 11:48:37.974 8f707e67-a0ef-4a34-af65-98153cd2720e INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 192.6711ms 
+ [2024-07-18 11:48:57.112 6e60c0b2-8c3e-4cc8-b3df-eddcda5c2e1e INF] Request starting HTTP/2 POST https://localhost:7288/api/Example - application/json 32 
+ [2024-07-18 11:48:57.122 6e60c0b2-8c3e-4cc8-b3df-eddcda5c2e1e INF] Executing endpoint 'BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API)' 
+ [2024-07-18 11:48:57.155 6e60c0b2-8c3e-4cc8-b3df-eddcda5c2e1e INF] Route matched with {action = "CreateExample", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateExample(BNA.EF1.Application.Example.Commands.CreateExample.CreateExampleCommand) on controller BNA.EF1.API.Controllers.ExampleController (BNA.EF1.API). 
+ [2024-07-18 11:48:57.421 6e60c0b2-8c3e-4cc8-b3df-eddcda5c2e1e INF] Executing action method BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 11:48:59.158 6e60c0b2-8c3e-4cc8-b3df-eddcda5c2e1e INF] Iniciando creacion de Example 
+ [2024-07-18 11:49:00.827 6e60c0b2-8c3e-4cc8-b3df-eddcda5c2e1e INF] Finalizando creacion de Example exitosamente 
+ [2024-07-18 11:49:04.231 6e60c0b2-8c3e-4cc8-b3df-eddcda5c2e1e INF] Executed action method BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 6803.6675ms. 
+ [2024-07-18 11:49:04.239 6e60c0b2-8c3e-4cc8-b3df-eddcda5c2e1e INF] Executing StatusCodeResult, setting HTTP status code 200 
+ [2024-07-18 11:49:04.245 6e60c0b2-8c3e-4cc8-b3df-eddcda5c2e1e INF] Executed action BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API) in 7084.2841ms 
+ [2024-07-18 11:49:04.246 6e60c0b2-8c3e-4cc8-b3df-eddcda5c2e1e INF] Executed endpoint 'BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API)' 
+ [2024-07-18 11:49:04.254 6e60c0b2-8c3e-4cc8-b3df-eddcda5c2e1e INF] Request finished HTTP/2 POST https://localhost:7288/api/Example - 200 0 null 7142.1248ms 
+ [2024-07-18 11:53:05.249 702f5605-cf09-45b0-92f1-5d9f6a7d12e8 INF] Now listening on: https://localhost:7288 
+ [2024-07-18 11:53:05.323 a8dada4c-de92-4e07-965a-18a5a8cfea6e INF] Now listening on: http://localhost:5246 
+ [2024-07-18 11:53:05.325 efdc8859-518f-4dc5-a5b3-1299b581bb8c INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 11:53:05.326 d3239e8a-30c4-4f39-b621-ab15979fbe97 INF] Hosting environment: Development 
+ [2024-07-18 11:53:05.326 e9c76c6b-db80-4f1b-b38f-fc1428251bc6 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 11:53:06.698 4ddecf38-954f-452f-b1e2-b466e40ce3e1 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 11:53:09.737 4ddecf38-954f-452f-b1e2-b466e40ce3e1 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 11:53:10.138 4ddecf38-954f-452f-b1e2-b466e40ce3e1 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 3446.9637ms 
+ [2024-07-18 11:53:10.177 af8e7a3f-73ff-4e3a-98bf-59ce3fd21698 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 11:53:10.216 af8e7a3f-73ff-4e3a-98bf-59ce3fd21698 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 38.9796ms 
+ [2024-07-18 11:53:10.337 75da3cda-2771-441d-ade0-e0d7f19fac61 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 11:53:10.522 75da3cda-2771-441d-ade0-e0d7f19fac61 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 184.6372ms 
+ [2024-07-18 11:53:26.124 991eaced-9ca8-4301-a482-1303bdab635d INF] Request starting HTTP/2 POST https://localhost:7288/api/Example - application/json 32 
+ [2024-07-18 11:53:26.133 991eaced-9ca8-4301-a482-1303bdab635d INF] Executing endpoint 'BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API)' 
+ [2024-07-18 11:53:26.163 991eaced-9ca8-4301-a482-1303bdab635d INF] Route matched with {action = "CreateExample", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateExample(BNA.EF1.Application.Example.Commands.CreateExample.CreateExampleCommand) on controller BNA.EF1.API.Controllers.ExampleController (BNA.EF1.API). 
+ [2024-07-18 11:53:26.429 991eaced-9ca8-4301-a482-1303bdab635d INF] Executing action method BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 11:53:28.149 991eaced-9ca8-4301-a482-1303bdab635d INF] Iniciando creacion de Example 
+ [2024-07-18 11:53:29.983 991eaced-9ca8-4301-a482-1303bdab635d INF] Finalizando creacion de Example exitosamente 
+ [2024-07-18 11:53:32.972 991eaced-9ca8-4301-a482-1303bdab635d INF] Executed action method BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 6535.1995ms. 
+ [2024-07-18 11:53:32.982 991eaced-9ca8-4301-a482-1303bdab635d INF] Executing StatusCodeResult, setting HTTP status code 200 
+ [2024-07-18 11:53:32.988 991eaced-9ca8-4301-a482-1303bdab635d INF] Executed action BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API) in 6820.451ms 
+ [2024-07-18 11:53:32.989 991eaced-9ca8-4301-a482-1303bdab635d INF] Executed endpoint 'BNA.EF1.API.Controllers.ExampleController.CreateExample (BNA.EF1.API)' 
+ [2024-07-18 11:53:33.001 991eaced-9ca8-4301-a482-1303bdab635d INF] Request finished HTTP/2 POST https://localhost:7288/api/Example - 200 0 null 6877.2785ms 
+ [2024-07-18 12:08:42.662 13d28362-63b5-4033-9c00-c3b8021b230b INF] Now listening on: https://localhost:7288 
+ [2024-07-18 12:08:42.756 71dc3740-7e30-409c-9100-89171e9c355f INF] Now listening on: http://localhost:5246 
+ [2024-07-18 12:08:42.760 0a18f1fc-d83c-4710-8f7c-30f51a9df1a9 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 12:08:42.761 bdbccf6a-df85-44d9-93df-e6c091e09570 INF] Hosting environment: Development 
+ [2024-07-18 12:08:42.762 c6ea45d7-a46e-49df-b728-6917fdfacde6 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 12:08:43.667 0cb276fc-2fbe-4f18-a4e0-8f4e55f19bb5 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 12:08:46.367 0cb276fc-2fbe-4f18-a4e0-8f4e55f19bb5 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 12:08:46.751 0cb276fc-2fbe-4f18-a4e0-8f4e55f19bb5 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 3089.8873ms 
+ [2024-07-18 12:08:46.786 3f003665-cc11-475d-8dc4-9853f3ee8f9a INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 12:08:46.796 3f003665-cc11-475d-8dc4-9853f3ee8f9a INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.8907ms 
+ [2024-07-18 12:08:46.917 8110df15-acfe-4eb1-8f98-4e52ee71ae19 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 12:08:47.127 8110df15-acfe-4eb1-8f98-4e52ee71ae19 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 210.7738ms 
+ [2024-07-18 15:32:28.656 17acd9b7-3b9a-4270-b2fe-1cd0ac831477 INF] Now listening on: https://localhost:7288 
+ [2024-07-18 15:32:28.735 e970b457-e221-47de-b459-908163ec7d50 INF] Now listening on: http://localhost:5246 
+ [2024-07-18 15:32:28.738 ee8fb3ff-09bc-46a4-8375-e732b1ace49e INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 15:32:28.739 e63dec5b-74a9-4938-8b18-b5c208c4d982 INF] Hosting environment: Development 
+ [2024-07-18 15:32:28.739 9b0f61c1-8d9c-4405-804f-c462e8d9d9ba INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 15:32:29.795 c339a597-4462-49ec-98b8-baaad3510434 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 15:32:30.626 c339a597-4462-49ec-98b8-baaad3510434 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 836.5476ms 
+ [2024-07-18 15:32:30.669 131060c4-f8a5-4f35-a855-61fa0302b9e7 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 15:32:30.678 131060c4-f8a5-4f35-a855-61fa0302b9e7 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.4618ms 
+ [2024-07-18 15:32:30.849 b73f2a70-4092-4841-8921-3f00ad57a825 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 15:32:30.882 b73f2a70-4092-4841-8921-3f00ad57a825 ERR] An unhandled exception has occurred while executing the request. 
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Cliente" for actions - BNA.EF1.API.Controllers.Cliente.Clientes (BNA.EF1.API),BNA.EF1.API.Controllers.Cliente.CreateExample (BNA.EF1.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-07-18 15:32:31.066 b87bf96a-2c9e-4591-8b04-ca6feca22e38 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 500 null application/problem+json 216.2828ms 
+ [2024-07-18 15:33:21.387 ea543656-29a9-49d6-b698-37ca302ac95d INF] Now listening on: https://localhost:7288 
+ [2024-07-18 15:33:21.476 e1d51710-3545-4b4c-936b-93eef7c13786 INF] Now listening on: http://localhost:5246 
+ [2024-07-18 15:33:21.479 7ee7d12c-1b56-4083-8485-758258530940 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 15:33:21.480 56a45ea6-791e-41e5-b107-aee0a3e7da74 INF] Hosting environment: Development 
+ [2024-07-18 15:33:21.480 5b8d4573-f3e7-421d-9455-fc620047aedd INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 15:33:22.198 b092c125-f076-497d-a661-6878624bec51 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 15:33:24.802 b092c125-f076-497d-a661-6878624bec51 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 15:33:25.122 b092c125-f076-497d-a661-6878624bec51 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2927.4152ms 
+ [2024-07-18 15:33:25.180 960c1c2e-d7f6-4b54-ad57-bfd29d8b7b66 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 15:33:25.221 960c1c2e-d7f6-4b54-ad57-bfd29d8b7b66 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 40.9202ms 
+ [2024-07-18 15:33:25.361 159766b6-0d18-4c1d-92dd-549bfb30aa4b INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 15:33:25.410 159766b6-0d18-4c1d-92dd-549bfb30aa4b ERR] An unhandled exception has occurred while executing the request. 
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Cliente" for actions - BNA.EF1.API.Controllers.Cliente.Clientes (BNA.EF1.API),BNA.EF1.API.Controllers.Cliente.CreateExample (BNA.EF1.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-07-18 15:33:25.467 0e945c9b-74a7-456a-9361-5908f19d23f2 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 500 null application/problem+json 106.4595ms 
+ [2024-07-18 15:37:46.196 ffba9cdd-6dc9-4ffd-a1d1-247d81111be7 INF] Now listening on: https://localhost:7288 
+ [2024-07-18 15:37:46.305 1f60346d-8569-40ab-acbc-8092e37fb5df INF] Now listening on: http://localhost:5246 
+ [2024-07-18 15:37:46.312 a067f162-7436-4a29-b20c-0dc0d508842b INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 15:37:46.313 ee065cde-3cc5-4a20-bd9d-4b43f11e7c6f INF] Hosting environment: Development 
+ [2024-07-18 15:37:46.313 50638ac8-e75b-4f1c-b621-594ec14b8883 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 15:37:47.204 5bba8b9c-4e5b-4e4a-872b-7d1cb389c1af INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 15:37:49.821 5bba8b9c-4e5b-4e4a-872b-7d1cb389c1af WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 15:37:50.203 5bba8b9c-4e5b-4e4a-872b-7d1cb389c1af INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 3006.3953ms 
+ [2024-07-18 15:37:50.280 35e361c4-9fc7-4ee2-a9b4-4bf146bee3ed INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 15:37:50.296 35e361c4-9fc7-4ee2-a9b4-4bf146bee3ed INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 15.7398ms 
+ [2024-07-18 15:37:50.473 21fb792f-46ad-41fb-b589-8f685683724d INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 15:37:50.530 21fb792f-46ad-41fb-b589-8f685683724d ERR] An unhandled exception has occurred while executing the request. 
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Cliente" for actions - BNA.EF1.API.Controllers.Cliente.Clientes (BNA.EF1.API),BNA.EF1.API.Controllers.Cliente.CreateExample (BNA.EF1.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-07-18 15:37:50.573 77d36d86-8214-4a13-b591-fbbeabecde60 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 500 null application/problem+json 99.5955ms 
+ [2024-07-18 15:39:55.456 06227c60-fd99-4d44-877f-fd9342cffeb7 INF] Now listening on: https://localhost:7288 
+ [2024-07-18 15:39:55.541 41006d8c-0948-4587-af1c-87aae80a9f4b INF] Now listening on: http://localhost:5246 
+ [2024-07-18 15:39:55.544 ea619d1a-40cb-40d4-972e-01893bbac3f8 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 15:39:55.544 aea8df8b-fbf8-4db4-a5a1-7a936a9dc7d9 INF] Hosting environment: Development 
+ [2024-07-18 15:39:55.544 38cb854c-8c55-46b8-81a1-ae04268f2b8a INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 15:39:56.272 29945b1e-9a32-4b64-b32a-f9c21c4de5ee INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 15:39:58.868 29945b1e-9a32-4b64-b32a-f9c21c4de5ee WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 15:39:59.331 29945b1e-9a32-4b64-b32a-f9c21c4de5ee INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 3067.2305ms 
+ [2024-07-18 15:39:59.368 78442279-73ee-4346-a003-fde0bc9960e7 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 15:39:59.447 78442279-73ee-4346-a003-fde0bc9960e7 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 79.589ms 
+ [2024-07-18 15:39:59.615 c552a949-1129-431e-a690-81bf32f6fc23 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 15:39:59.645 c552a949-1129-431e-a690-81bf32f6fc23 ERR] An unhandled exception has occurred while executing the request. 
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Cliente" for actions - BNA.EF1.API.Controllers.Cliente.Clientes (BNA.EF1.API),BNA.EF1.API.Controllers.Cliente.CreateExample (BNA.EF1.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-07-18 15:39:59.700 27905d26-f845-43b2-a064-e5b42ab83912 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 500 null application/problem+json 85.3846ms 
+ [2024-07-18 15:48:32.155 ce198813-3a63-4f49-880d-0336f35f32aa INF] Now listening on: https://localhost:7288 
+ [2024-07-18 15:48:32.243 7047b634-596a-4a0a-9e3a-013b77947130 INF] Now listening on: http://localhost:5246 
+ [2024-07-18 15:48:32.252 e198e0c8-fab2-44e7-a1ee-776ff0924187 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 15:48:32.253 132274b2-2a40-4d69-adb5-c7999a1275ca INF] Hosting environment: Development 
+ [2024-07-18 15:48:32.253 e71e8a82-ccb6-4c6e-895a-3788d2a9983d INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 15:48:32.811 600fa3eb-8612-44da-8c30-0a2beb63ab11 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 15:48:33.437 600fa3eb-8612-44da-8c30-0a2beb63ab11 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 632.8784ms 
+ [2024-07-18 15:48:33.467 7f6d4557-c469-4701-a8c6-46b5c72cbfe6 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 15:48:33.473 7f6d4557-c469-4701-a8c6-46b5c72cbfe6 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.6101ms 
+ [2024-07-18 15:48:33.590 6854d6f3-e4a4-4825-a6c1-53bc845652a8 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 15:48:33.669 6854d6f3-e4a4-4825-a6c1-53bc845652a8 ERR] An unhandled exception has occurred while executing the request. 
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Cliente" for actions - BNA.EF1.API.Controllers.Cliente.Clientes (BNA.EF1.API),BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-07-18 15:48:33.777 45f73c74-d3f8-41a7-a74c-e8c3157479c7 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 500 null application/problem+json 187.3823ms 
+ [2024-07-18 15:52:17.627 e110f3e7-99bd-4405-9eb5-b794a66f25d0 INF] Now listening on: https://localhost:7288 
+ [2024-07-18 15:52:17.721 55e52b5e-2ec9-4f26-b6a5-81399850ebb5 INF] Now listening on: http://localhost:5246 
+ [2024-07-18 15:52:17.723 c02bf708-71e1-4e57-be01-ea4578c356e9 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 15:52:17.724 92efe5be-c230-4b79-8219-15ec98977f36 INF] Hosting environment: Development 
+ [2024-07-18 15:52:17.724 2a26f484-e9cd-4e7a-bbb6-5e051ae58277 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 15:52:18.561 abad833c-d2fd-4599-a958-a886b20344db INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 15:52:21.144 abad833c-d2fd-4599-a958-a886b20344db WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 15:52:21.511 abad833c-d2fd-4599-a958-a886b20344db INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2958.9497ms 
+ [2024-07-18 15:52:21.544 ca30bf60-0b7e-42a7-8001-3d16602b0144 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 15:52:21.558 ca30bf60-0b7e-42a7-8001-3d16602b0144 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 13.9094ms 
+ [2024-07-18 15:52:21.681 41151902-c468-4e78-9aa5-74a0465f8bb7 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 15:52:21.732 41151902-c468-4e78-9aa5-74a0465f8bb7 ERR] An unhandled exception has occurred while executing the request. 
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Cliente" for actions - BNA.EF1.API.Controllers.Cliente.Clientes (BNA.EF1.API),BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-07-18 15:52:21.782 2976589c-f4bb-40e6-a8ea-6e84a87e6c1f INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 500 null application/problem+json 105.0329ms 
+ [2024-07-18 15:52:22.756 e8d16a78-fe9d-41d1-bc18-f1033f07b3d2 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 15:52:24.963 e8d16a78-fe9d-41d1-bc18-f1033f07b3d2 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 15:52:24.967 e8d16a78-fe9d-41d1-bc18-f1033f07b3d2 ERR] An unhandled exception has occurred while executing the request. 
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Cliente" for actions - BNA.EF1.API.Controllers.Cliente.Clientes (BNA.EF1.API),BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-07-18 15:52:25.044 add38132-dce7-409f-aaa1-dd378af2c0be INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 500 null text/html; charset=utf-8 2288.0134ms 
+ [2024-07-18 15:52:25.057 4de63ae1-b604-4d24-94cb-cbaa382d8ea1 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 15:52:25.062 4de63ae1-b604-4d24-94cb-cbaa382d8ea1 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.981ms 
+ [2024-07-18 15:52:25.183 efc96f2d-1abb-416a-a4df-393c07c19120 INF] Request starting HTTP/2 GET https://localhost:7288/favicon.ico - null null 
+ [2024-07-18 15:52:25.187 efc96f2d-1abb-416a-a4df-393c07c19120 INF] Request finished HTTP/2 GET https://localhost:7288/favicon.ico - 404 0 null 4.7169ms 
+ [2024-07-18 15:52:25.189 efc96f2d-1abb-416a-a4df-393c07c19120 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7288/favicon.ico, Response status code: 404 
+ [2024-07-18 15:55:58.676 5232dc50-bf04-49e3-a734-f4166bb48eb4 INF] Now listening on: https://localhost:7288 
+ [2024-07-18 15:55:58.784 6452866a-cf38-4529-95ca-f236a8581465 INF] Now listening on: http://localhost:5246 
+ [2024-07-18 15:55:58.787 77e19c2a-ab26-4623-ab74-f5b4b3d110df INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 15:55:58.788 b474ee95-6734-4fdb-8974-8907055e9a39 INF] Hosting environment: Development 
+ [2024-07-18 15:55:58.788 ea2c1a39-aa1e-405d-a9fb-2742d80f46ad INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 15:55:59.784 45e254a1-601e-4d8d-bccb-b5f9f47931b1 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 15:56:02.340 45e254a1-601e-4d8d-bccb-b5f9f47931b1 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 15:56:02.715 45e254a1-601e-4d8d-bccb-b5f9f47931b1 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2939.3476ms 
+ [2024-07-18 15:56:02.751 3c227945-bd98-434c-831d-381caae78223 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 15:56:02.782 3c227945-bd98-434c-831d-381caae78223 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 30.5127ms 
+ [2024-07-18 15:56:02.952 6bc7a2d4-8dba-4fa3-8cfc-82498b1f41a0 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 15:56:03.155 6bc7a2d4-8dba-4fa3-8cfc-82498b1f41a0 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 203.1173ms 
+ [2024-07-18 15:56:39.158 dd121385-4ad7-4f13-826a-31fed996145b INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 69 
+ [2024-07-18 15:56:39.191 dd121385-4ad7-4f13-826a-31fed996145b INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API)' 
+ [2024-07-18 15:56:39.226 dd121385-4ad7-4f13-826a-31fed996145b INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 15:56:39.481 dd121385-4ad7-4f13-826a-31fed996145b INF] Executing action method BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 15:56:41.180 dd121385-4ad7-4f13-826a-31fed996145b INF] Iniciando creacion de Cliente 
+ [2024-07-18 15:56:42.833 dd121385-4ad7-4f13-826a-31fed996145b INF] Finalizando creacion de Example exitosamente 
+ [2024-07-18 15:56:42.841 dd121385-4ad7-4f13-826a-31fed996145b INF] Executed action method BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 3353.6196ms. 
+ [2024-07-18 15:56:42.850 dd121385-4ad7-4f13-826a-31fed996145b INF] Executing StatusCodeResult, setting HTTP status code 200 
+ [2024-07-18 15:56:42.861 dd121385-4ad7-4f13-826a-31fed996145b INF] Executed action BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API) in 3629.1252ms 
+ [2024-07-18 15:56:42.862 dd121385-4ad7-4f13-826a-31fed996145b INF] Executed endpoint 'BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API)' 
+ [2024-07-18 15:56:42.872 dd121385-4ad7-4f13-826a-31fed996145b INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 200 0 null 3717.9986ms 
+ [2024-07-18 15:57:29.165 0ab31aec-2c7c-4d05-90ae-bf453fedb01b INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/DEEC776D-E65B-4C90-A765-3CE8302F39A6 - null null 
+ [2024-07-18 15:57:29.168 0ab31aec-2c7c-4d05-90ae-bf453fedb01b INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 15:57:29.178 0ab31aec-2c7c-4d05-90ae-bf453fedb01b INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 15:57:29.233 0ab31aec-2c7c-4d05-90ae-bf453fedb01b INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 15:57:29.543 0ab31aec-2c7c-4d05-90ae-bf453fedb01b INF] Iniciando consulta de Example por id "deec776d-e65b-4c90-a765-3ce8302f39a6" 
+ [2024-07-18 15:57:30.588 0ab31aec-2c7c-4d05-90ae-bf453fedb01b WRN] Excepción no manejada para el Request GetClienteQuery {"Id":"deec776d-e65b-4c90-a765-3ce8302f39a6"} 
+ [2024-07-18 15:57:30.790 0ab31aec-2c7c-4d05-90ae-bf453fedb01b ERR] Se detectó una excepción AutoMapperMappingException 
+ AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Cliente -> GetClienteDto
+BNA.EF1.Domain.Clientes.Cliente -> BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto
+   at lambda_method85(Closure, Object, GetClienteDto, ResolutionContext)
+   at BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteQueryHandler.Handle(GetClienteQuery request, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Clientes\Queries\GetCliente\GetClienteQuery.cs:line 39
+   at BNA.EF1.Application.Common.Behaviours.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\ValidationBehavior.cs:line 25
+   at BNA.EF1.Application.Common.Behaviours.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\UnhandledExceptionBehavior.cs:line 20
+   at BNA.EF1.API.Controllers.Cliente.GetCliente(Guid id) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API\Controllers\ClienteController.cs:line 35
+   at lambda_method77(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2024-07-18 15:57:30.853 0ab31aec-2c7c-4d05-90ae-bf453fedb01b INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-18 15:57:30.870 0ab31aec-2c7c-4d05-90ae-bf453fedb01b INF] Executed action BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) in 1691.3775ms 
+ [2024-07-18 15:57:30.870 0ab31aec-2c7c-4d05-90ae-bf453fedb01b INF] Executed endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 15:57:30.872 0ab31aec-2c7c-4d05-90ae-bf453fedb01b INF] Request finished HTTP/2 GET https://localhost:7288/api/Cliente/DEEC776D-E65B-4C90-A765-3CE8302F39A6 - 500 null application/problem+json; charset=utf-8 1706.5394ms 
+ [2024-07-18 15:58:55.504 70cde18e-4773-42bf-a8d9-54cae7b4c941 INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/DEEC776D-E65B-4C90-A765-3CE8302F39A6 - null null 
+ [2024-07-18 15:58:55.517 70cde18e-4773-42bf-a8d9-54cae7b4c941 INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 15:58:55.519 70cde18e-4773-42bf-a8d9-54cae7b4c941 INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 15:58:55.554 70cde18e-4773-42bf-a8d9-54cae7b4c941 INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 15:58:55.571 70cde18e-4773-42bf-a8d9-54cae7b4c941 INF] Iniciando consulta de Example por id "deec776d-e65b-4c90-a765-3ce8302f39a6" 
+ [2024-07-18 15:58:55.904 70cde18e-4773-42bf-a8d9-54cae7b4c941 WRN] Excepción no manejada para el Request GetClienteQuery {"Id":"deec776d-e65b-4c90-a765-3ce8302f39a6"} 
+ [2024-07-18 15:58:56.084 70cde18e-4773-42bf-a8d9-54cae7b4c941 ERR] Se detectó una excepción AutoMapperMappingException 
+ AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Cliente -> GetClienteDto
+BNA.EF1.Domain.Clientes.Cliente -> BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto
+   at lambda_method85(Closure, Object, GetClienteDto, ResolutionContext)
+   at BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteQueryHandler.Handle(GetClienteQuery request, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Clientes\Queries\GetCliente\GetClienteQuery.cs:line 39
+   at BNA.EF1.Application.Common.Behaviours.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\ValidationBehavior.cs:line 25
+   at BNA.EF1.Application.Common.Behaviours.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\UnhandledExceptionBehavior.cs:line 20
+   at BNA.EF1.API.Controllers.Cliente.GetCliente(Guid id) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API\Controllers\ClienteController.cs:line 35
+   at lambda_method77(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2024-07-18 15:58:56.089 70cde18e-4773-42bf-a8d9-54cae7b4c941 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-18 15:58:56.090 70cde18e-4773-42bf-a8d9-54cae7b4c941 INF] Executed action BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) in 565.976ms 
+ [2024-07-18 15:58:56.090 70cde18e-4773-42bf-a8d9-54cae7b4c941 INF] Executed endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 15:58:56.090 70cde18e-4773-42bf-a8d9-54cae7b4c941 INF] Request finished HTTP/2 GET https://localhost:7288/api/Cliente/DEEC776D-E65B-4C90-A765-3CE8302F39A6 - 500 null application/problem+json; charset=utf-8 586.9624ms 
+ [2024-07-18 16:00:12.856 fb3280b7-4e63-4b36-9851-44b92c0bee70 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 73 
+ [2024-07-18 16:00:12.860 fb3280b7-4e63-4b36-9851-44b92c0bee70 INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API)' 
+ [2024-07-18 16:00:12.860 fb3280b7-4e63-4b36-9851-44b92c0bee70 INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:00:12.897 fb3280b7-4e63-4b36-9851-44b92c0bee70 INF] Executing action method BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:00:12.902 fb3280b7-4e63-4b36-9851-44b92c0bee70 INF] Iniciando creacion de Cliente 
+ [2024-07-18 16:00:12.916 fb3280b7-4e63-4b36-9851-44b92c0bee70 INF] Finalizando creacion de Example exitosamente 
+ [2024-07-18 16:00:12.929 fb3280b7-4e63-4b36-9851-44b92c0bee70 INF] Executed action method BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 31.4928ms. 
+ [2024-07-18 16:00:12.941 fb3280b7-4e63-4b36-9851-44b92c0bee70 INF] Executing StatusCodeResult, setting HTTP status code 200 
+ [2024-07-18 16:00:12.941 fb3280b7-4e63-4b36-9851-44b92c0bee70 INF] Executed action BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API) in 80.4279ms 
+ [2024-07-18 16:00:12.944 fb3280b7-4e63-4b36-9851-44b92c0bee70 INF] Executed endpoint 'BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API)' 
+ [2024-07-18 16:00:12.945 fb3280b7-4e63-4b36-9851-44b92c0bee70 INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente - 200 0 null 89.7464ms 
+ [2024-07-18 16:02:15.953 8b9733fc-e546-4e39-9d79-e01d034b14c8 INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/fb3280b7-4e63-4b36-9851-44b92c0bee70 - null null 
+ [2024-07-18 16:02:15.969 8b9733fc-e546-4e39-9d79-e01d034b14c8 INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:02:15.969 8b9733fc-e546-4e39-9d79-e01d034b14c8 INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:02:16.016 8b9733fc-e546-4e39-9d79-e01d034b14c8 INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:02:16.026 8b9733fc-e546-4e39-9d79-e01d034b14c8 INF] Iniciando consulta de Example por id "fb3280b7-4e63-4b36-9851-44b92c0bee70" 
+ [2024-07-18 16:02:16.037 8b9733fc-e546-4e39-9d79-e01d034b14c8 INF] Executed action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21.1675ms. 
+ [2024-07-18 16:02:16.038 8b9733fc-e546-4e39-9d79-e01d034b14c8 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-18 16:02:16.044 8b9733fc-e546-4e39-9d79-e01d034b14c8 INF] Executed action BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) in 74.4563ms 
+ [2024-07-18 16:02:16.044 8b9733fc-e546-4e39-9d79-e01d034b14c8 INF] Executed endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:02:16.044 8b9733fc-e546-4e39-9d79-e01d034b14c8 INF] Request finished HTTP/2 GET https://localhost:7288/api/Cliente/fb3280b7-4e63-4b36-9851-44b92c0bee70 - 404 null application/problem+json; charset=utf-8 91.6502ms 
+ [2024-07-18 16:02:33.485 4b2d2a88-473e-4994-a883-2fae60ffbaad INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 16:02:35.693 4b2d2a88-473e-4994-a883-2fae60ffbaad WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 16:02:35.697 4b2d2a88-473e-4994-a883-2fae60ffbaad INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2212.3986ms 
+ [2024-07-18 16:02:35.717 1a9b26ea-5307-4b5b-90b1-11908f2f9baf INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 16:02:35.718 1a9b26ea-5307-4b5b-90b1-11908f2f9baf INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 1.713ms 
+ [2024-07-18 16:02:35.877 cef08a72-c3b7-4ef5-9199-c911e8a96810 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 16:02:35.890 cef08a72-c3b7-4ef5-9199-c911e8a96810 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.4234ms 
+ [2024-07-18 16:03:02.803 299fa949-7feb-40da-a998-d074d38b8e3f INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - null null 
+ [2024-07-18 16:03:02.806 299fa949-7feb-40da-a998-d074d38b8e3f INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:03:02.806 299fa949-7feb-40da-a998-d074d38b8e3f INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:03:02.846 299fa949-7feb-40da-a998-d074d38b8e3f INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:03:02.848 299fa949-7feb-40da-a998-d074d38b8e3f INF] Iniciando consulta de Example por id "9a6edf8c-be1e-4cee-995f-696a4fe8fb9e" 
+ [2024-07-18 16:03:03.156 299fa949-7feb-40da-a998-d074d38b8e3f WRN] Excepción no manejada para el Request GetClienteQuery {"Id":"9a6edf8c-be1e-4cee-995f-696a4fe8fb9e"} 
+ [2024-07-18 16:03:03.320 299fa949-7feb-40da-a998-d074d38b8e3f ERR] Se detectó una excepción AutoMapperMappingException 
+ AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Cliente -> GetClienteDto
+BNA.EF1.Domain.Clientes.Cliente -> BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto
+   at lambda_method85(Closure, Object, GetClienteDto, ResolutionContext)
+   at BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteQueryHandler.Handle(GetClienteQuery request, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Clientes\Queries\GetCliente\GetClienteQuery.cs:line 39
+   at BNA.EF1.Application.Common.Behaviours.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\ValidationBehavior.cs:line 25
+   at BNA.EF1.Application.Common.Behaviours.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\UnhandledExceptionBehavior.cs:line 20
+   at BNA.EF1.API.Controllers.Cliente.GetCliente(Guid id) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API\Controllers\ClienteController.cs:line 35
+   at lambda_method77(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2024-07-18 16:03:03.322 299fa949-7feb-40da-a998-d074d38b8e3f INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-18 16:03:03.323 299fa949-7feb-40da-a998-d074d38b8e3f INF] Executed action BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) in 516.0599ms 
+ [2024-07-18 16:03:03.323 299fa949-7feb-40da-a998-d074d38b8e3f INF] Executed endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:03:03.323 299fa949-7feb-40da-a998-d074d38b8e3f INF] Request finished HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - 500 null application/problem+json; charset=utf-8 522.0422ms 
+ [2024-07-18 16:04:02.525 360977af-6807-41bc-a4d1-7108adee32ae INF] Now listening on: https://localhost:7288 
+ [2024-07-18 16:04:02.614 d6ff3f6b-7daf-4b93-bd8b-f690ac5da88c INF] Now listening on: http://localhost:5246 
+ [2024-07-18 16:04:02.617 78266ca5-4b4d-4d69-9200-9adf1f39770c INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 16:04:02.618 bdf70817-05fe-4e3f-8085-25c7d48167ec INF] Hosting environment: Development 
+ [2024-07-18 16:04:02.618 c2aaf997-ffd3-4abf-8619-40b8ec7faa3b INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 16:04:03.175 5f7e0c8e-e35a-4e58-9966-ee11c9e9bfea INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 16:04:03.835 5f7e0c8e-e35a-4e58-9966-ee11c9e9bfea INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 664.7893ms 
+ [2024-07-18 16:04:03.862 3013f788-a281-43f9-9405-9e0106b36f6c INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 16:04:03.881 3013f788-a281-43f9-9405-9e0106b36f6c INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 19.0226ms 
+ [2024-07-18 16:04:03.992 2f5fd187-54b2-4300-b3a0-03cf9f895483 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 16:04:04.209 2f5fd187-54b2-4300-b3a0-03cf9f895483 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 216.879ms 
+ [2024-07-18 16:04:47.099 c248e5b4-af93-4688-8405-3abe4295b446 INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - null null 
+ [2024-07-18 16:04:47.130 c248e5b4-af93-4688-8405-3abe4295b446 INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:04:47.176 c248e5b4-af93-4688-8405-3abe4295b446 INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:04:47.376 c248e5b4-af93-4688-8405-3abe4295b446 INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:09:39.972 c248e5b4-af93-4688-8405-3abe4295b446 INF] Iniciando consulta de Example por id "9a6edf8c-be1e-4cee-995f-696a4fe8fb9e" 
+ [2024-07-18 16:13:54.413 c248e5b4-af93-4688-8405-3abe4295b446 WRN] Excepción no manejada para el Request GetClienteQuery {"Id":"9a6edf8c-be1e-4cee-995f-696a4fe8fb9e"} 
+ [2024-07-18 16:14:05.424 c248e5b4-af93-4688-8405-3abe4295b446 ERR] Se detectó una excepción AutoMapperMappingException 
+ AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Cliente -> GetClienteDto
+BNA.EF1.Domain.Clientes.Cliente -> BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto
+   at lambda_method50(Closure, Object, GetClienteDto, ResolutionContext)
+   at BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteQueryHandler.Handle(GetClienteQuery request, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Clientes\Queries\GetCliente\GetClienteQuery.cs:line 39
+   at BNA.EF1.Application.Common.Behaviours.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\ValidationBehavior.cs:line 25
+   at BNA.EF1.Application.Common.Behaviours.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\UnhandledExceptionBehavior.cs:line 20
+   at BNA.EF1.API.Controllers.Cliente.GetCliente(Guid id) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API\Controllers\ClienteController.cs:line 35
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2024-07-18 16:14:20.158 c248e5b4-af93-4688-8405-3abe4295b446 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-18 16:14:20.181 c248e5b4-af93-4688-8405-3abe4295b446 INF] Executed action BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) in 572974.7574ms 
+ [2024-07-18 16:14:20.182 c248e5b4-af93-4688-8405-3abe4295b446 INF] Executed endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:14:20.194 c248e5b4-af93-4688-8405-3abe4295b446 INF] Request finished HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - 500 null application/problem+json; charset=utf-8 573071.1668ms 
+ [2024-07-18 16:15:10.285 732c51f7-baea-4d3c-8aa4-15298d4a7e4b INF] Now listening on: https://localhost:7288 
+ [2024-07-18 16:15:10.374 0f78caae-62a7-4ccd-b63b-3aef98eec154 INF] Now listening on: http://localhost:5246 
+ [2024-07-18 16:15:10.381 b26c1898-f5ad-4c4c-b87a-10314ef1d1db INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 16:15:10.382 5ec60ef0-9d43-430e-9787-ccd225bbf393 INF] Hosting environment: Development 
+ [2024-07-18 16:15:10.382 2acbe065-7323-4cb4-b44a-bf43131dcb70 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 16:15:11.299 a31ef78b-ad76-48bc-b7c7-6a0bc5c9862e INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 16:15:11.932 a31ef78b-ad76-48bc-b7c7-6a0bc5c9862e INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 636.7337ms 
+ [2024-07-18 16:15:11.953 181fee22-dd85-4a27-98f6-784cc98baef7 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 16:15:11.960 181fee22-dd85-4a27-98f6-784cc98baef7 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.2301ms 
+ [2024-07-18 16:15:12.075 55510f80-19c3-4c36-82b7-84fa74702a1d INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 16:15:12.278 55510f80-19c3-4c36-82b7-84fa74702a1d INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 203.0466ms 
+ [2024-07-18 16:15:30.945 7865b7cb-5e5a-4174-960a-cd7bedbcf34c INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - null null 
+ [2024-07-18 16:15:30.954 7865b7cb-5e5a-4174-960a-cd7bedbcf34c INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:15:30.999 7865b7cb-5e5a-4174-960a-cd7bedbcf34c INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:15:31.174 7865b7cb-5e5a-4174-960a-cd7bedbcf34c INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:17:47.946 7865b7cb-5e5a-4174-960a-cd7bedbcf34c INF] Iniciando consulta de Example por id "9a6edf8c-be1e-4cee-995f-696a4fe8fb9e" 
+ [2024-07-18 16:17:58.340 7865b7cb-5e5a-4174-960a-cd7bedbcf34c WRN] Excepción no manejada para el Request GetClienteQuery {"Id":"9a6edf8c-be1e-4cee-995f-696a4fe8fb9e"} 
+ [2024-07-18 16:17:58.509 7865b7cb-5e5a-4174-960a-cd7bedbcf34c ERR] Se detectó una excepción AutoMapperMappingException 
+ AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Cliente -> GetClienteDto
+BNA.EF1.Domain.Clientes.Cliente -> BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto
+   at lambda_method48(Closure, Object, GetClienteDto, ResolutionContext)
+   at BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteQueryHandler.Handle(GetClienteQuery request, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Clientes\Queries\GetCliente\GetClienteQuery.cs:line 39
+   at BNA.EF1.Application.Common.Behaviours.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\ValidationBehavior.cs:line 25
+   at BNA.EF1.Application.Common.Behaviours.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\UnhandledExceptionBehavior.cs:line 20
+   at BNA.EF1.API.Controllers.Cliente.GetCliente(Guid id) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API\Controllers\ClienteController.cs:line 35
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2024-07-18 16:17:58.627 7865b7cb-5e5a-4174-960a-cd7bedbcf34c INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-18 16:17:58.647 7865b7cb-5e5a-4174-960a-cd7bedbcf34c INF] Executed action BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) in 147637.0388ms 
+ [2024-07-18 16:17:58.648 7865b7cb-5e5a-4174-960a-cd7bedbcf34c INF] Executed endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:17:58.658 7865b7cb-5e5a-4174-960a-cd7bedbcf34c INF] Request finished HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - 500 null application/problem+json; charset=utf-8 147706.7326ms 
+ [2024-07-18 16:18:02.213 d0dcf4a9-3243-4bb7-a403-4040617ea0b8 INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - null null 
+ [2024-07-18 16:18:02.215 d0dcf4a9-3243-4bb7-a403-4040617ea0b8 INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:18:02.216 d0dcf4a9-3243-4bb7-a403-4040617ea0b8 INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:18:02.250 d0dcf4a9-3243-4bb7-a403-4040617ea0b8 INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:18:06.172 d0dcf4a9-3243-4bb7-a403-4040617ea0b8 INF] Iniciando consulta de Example por id "9a6edf8c-be1e-4cee-995f-696a4fe8fb9e" 
+ [2024-07-18 16:18:11.162 d0dcf4a9-3243-4bb7-a403-4040617ea0b8 WRN] Excepción no manejada para el Request GetClienteQuery {"Id":"9a6edf8c-be1e-4cee-995f-696a4fe8fb9e"} 
+ [2024-07-18 16:18:11.410 d0dcf4a9-3243-4bb7-a403-4040617ea0b8 ERR] Se detectó una excepción AutoMapperMappingException 
+ AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Cliente -> GetClienteDto
+BNA.EF1.Domain.Clientes.Cliente -> BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto
+   at lambda_method48(Closure, Object, GetClienteDto, ResolutionContext)
+   at BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteQueryHandler.Handle(GetClienteQuery request, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Clientes\Queries\GetCliente\GetClienteQuery.cs:line 39
+   at BNA.EF1.Application.Common.Behaviours.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\ValidationBehavior.cs:line 25
+   at BNA.EF1.Application.Common.Behaviours.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\UnhandledExceptionBehavior.cs:line 20
+   at BNA.EF1.API.Controllers.Cliente.GetCliente(Guid id) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API\Controllers\ClienteController.cs:line 35
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2024-07-18 16:18:11.415 d0dcf4a9-3243-4bb7-a403-4040617ea0b8 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-18 16:18:11.416 d0dcf4a9-3243-4bb7-a403-4040617ea0b8 INF] Executed action BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) in 9198.6373ms 
+ [2024-07-18 16:18:11.416 d0dcf4a9-3243-4bb7-a403-4040617ea0b8 INF] Executed endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:18:11.416 d0dcf4a9-3243-4bb7-a403-4040617ea0b8 INF] Request finished HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - 500 null application/problem+json; charset=utf-8 9202.8593ms 
+ [2024-07-18 16:18:14.372 cfd519ef-8148-40fb-ac14-d35109f2c343 INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - null null 
+ [2024-07-18 16:18:14.373 cfd519ef-8148-40fb-ac14-d35109f2c343 INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:18:25.140 cfd519ef-8148-40fb-ac14-d35109f2c343 INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:18:25.197 cfd519ef-8148-40fb-ac14-d35109f2c343 INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:18:26.073 cfd519ef-8148-40fb-ac14-d35109f2c343 INF] Iniciando consulta de Example por id "9a6edf8c-be1e-4cee-995f-696a4fe8fb9e" 
+ [2024-07-18 16:18:35.748 cfd519ef-8148-40fb-ac14-d35109f2c343 WRN] Excepción no manejada para el Request GetClienteQuery {"Id":"9a6edf8c-be1e-4cee-995f-696a4fe8fb9e"} 
+ [2024-07-18 16:18:35.977 cfd519ef-8148-40fb-ac14-d35109f2c343 ERR] Se detectó una excepción AutoMapperMappingException 
+ AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Cliente -> GetClienteDto
+BNA.EF1.Domain.Clientes.Cliente -> BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto
+   at lambda_method48(Closure, Object, GetClienteDto, ResolutionContext)
+   at BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteQueryHandler.Handle(GetClienteQuery request, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Clientes\Queries\GetCliente\GetClienteQuery.cs:line 39
+   at BNA.EF1.Application.Common.Behaviours.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\ValidationBehavior.cs:line 25
+   at BNA.EF1.Application.Common.Behaviours.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.Application\Common\Behaviours\UnhandledExceptionBehavior.cs:line 20
+   at BNA.EF1.API.Controllers.Cliente.GetCliente(Guid id) in C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API\Controllers\ClienteController.cs:line 35
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2024-07-18 16:18:35.980 cfd519ef-8148-40fb-ac14-d35109f2c343 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+ [2024-07-18 16:18:35.980 cfd519ef-8148-40fb-ac14-d35109f2c343 INF] Executed action BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) in 10840.1049ms 
+ [2024-07-18 16:18:35.981 cfd519ef-8148-40fb-ac14-d35109f2c343 INF] Executed endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:18:35.981 cfd519ef-8148-40fb-ac14-d35109f2c343 INF] Request finished HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - 500 null application/problem+json; charset=utf-8 21608.548ms 
+ [2024-07-18 16:18:38.828 0381d3f4-5547-42fa-b088-aa0d21c3ad0d INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - null null 
+ [2024-07-18 16:18:38.829 0381d3f4-5547-42fa-b088-aa0d21c3ad0d INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:18:38.829 0381d3f4-5547-42fa-b088-aa0d21c3ad0d INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:18:38.862 0381d3f4-5547-42fa-b088-aa0d21c3ad0d INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:18:42.300 0381d3f4-5547-42fa-b088-aa0d21c3ad0d INF] Iniciando consulta de Example por id "9a6edf8c-be1e-4cee-995f-696a4fe8fb9e" 
+ [2024-07-18 16:19:06.239 428f0551-77f5-4e35-9071-f24fac180476 INF] Now listening on: https://localhost:7288 
+ [2024-07-18 16:19:06.315 a52adaac-4760-4410-b6d1-17ec6154b896 INF] Now listening on: http://localhost:5246 
+ [2024-07-18 16:19:06.318 ca476121-a89d-4124-9fe3-89e657f7a7ca INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 16:19:06.318 b85583a8-cd90-48f3-afb4-17d5b4476861 INF] Hosting environment: Development 
+ [2024-07-18 16:19:06.318 3f9b8232-4b08-4f87-8cc7-7ead7294a511 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 16:19:07.495 2db87116-b0c2-4240-9cb6-41d5547ffbe1 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 16:19:08.274 2db87116-b0c2-4240-9cb6-41d5547ffbe1 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 784.554ms 
+ [2024-07-18 16:19:08.319 f5485755-8f8d-4611-b4f9-f8ba3576fba8 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 16:19:08.335 f5485755-8f8d-4611-b4f9-f8ba3576fba8 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 16.4796ms 
+ [2024-07-18 16:19:08.459 018f0efa-46d1-43eb-b6aa-d2d0316ca456 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 16:19:08.664 018f0efa-46d1-43eb-b6aa-d2d0316ca456 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 204.6546ms 
+ [2024-07-18 16:19:30.924 de06a221-6cc4-40a1-b56b-59e0fa7ee99f INF] Request starting HTTP/2 GET https://localhost:7288/api/Example/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - null null 
+ [2024-07-18 16:19:30.950 de06a221-6cc4-40a1-b56b-59e0fa7ee99f INF] Executing endpoint 'BNA.EF1.API.Controllers.ExampleController.GetExample (BNA.EF1.API)' 
+ [2024-07-18 16:19:30.982 de06a221-6cc4-40a1-b56b-59e0fa7ee99f INF] Route matched with {action = "GetExample", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Example.Queries.GetExample.GetExampleDto]] GetExample(System.Guid) on controller BNA.EF1.API.Controllers.ExampleController (BNA.EF1.API). 
+ [2024-07-18 16:19:31.232 de06a221-6cc4-40a1-b56b-59e0fa7ee99f INF] Executing action method BNA.EF1.API.Controllers.ExampleController.GetExample (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:19:38.674 de06a221-6cc4-40a1-b56b-59e0fa7ee99f INF] Iniciando consulta de Example por id "9a6edf8c-be1e-4cee-995f-696a4fe8fb9e" 
+ [2024-07-18 16:20:37.920 c3d82282-7b34-4128-b302-679f694b4d29 INF] Now listening on: https://localhost:7288 
+ [2024-07-18 16:20:38.000 b6f43b39-9ffa-4202-adbd-4bc38581b8fb INF] Now listening on: http://localhost:5246 
+ [2024-07-18 16:20:38.003 2edbfcee-c772-408f-85b8-b9787541e7bb INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 16:20:38.003 cdc7f561-a908-45c0-b96b-df7cc8a9c843 INF] Hosting environment: Development 
+ [2024-07-18 16:20:38.003 ccb43c32-d6a6-4de6-afb4-a9763f1805c8 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 16:20:38.915 e8cb78fa-9ac9-4b1e-aee8-2c745e72342b INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 16:20:42.065 e8cb78fa-9ac9-4b1e-aee8-2c745e72342b WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 16:20:42.342 e8cb78fa-9ac9-4b1e-aee8-2c745e72342b INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 3435.0043ms 
+ [2024-07-18 16:20:42.440 c3e6f735-6897-4dc6-89f0-62f68cc315ab INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 16:20:42.447 c3e6f735-6897-4dc6-89f0-62f68cc315ab INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.5727ms 
+ [2024-07-18 16:20:42.606 d7e86fcb-65ba-4dc0-8d06-899e0bc312e6 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 16:20:42.774 d7e86fcb-65ba-4dc0-8d06-899e0bc312e6 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 167.8048ms 
+ [2024-07-18 16:21:00.333 2b34dae8-c28d-487c-899a-ee40f08c7e4d INF] Now listening on: https://localhost:7288 
+ [2024-07-18 16:21:00.418 eb6f5bbb-c7d4-468e-a932-aa0ebe2ac826 INF] Now listening on: http://localhost:5246 
+ [2024-07-18 16:21:00.423 214981fb-487f-4d31-86e1-7cc0f45ebec0 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 16:21:00.424 51b9841e-7904-443b-823f-d612afe3e19b INF] Hosting environment: Development 
+ [2024-07-18 16:21:00.424 3eaa8d46-8e2a-4a2d-b1ee-f0e61d925166 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 16:21:01.266 12fe2272-fce7-4fc7-b3c5-73686c1dba39 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 16:21:03.909 12fe2272-fce7-4fc7-b3c5-73686c1dba39 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 16:21:04.186 12fe2272-fce7-4fc7-b3c5-73686c1dba39 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2924.9345ms 
+ [2024-07-18 16:21:04.235 4036b902-d6d6-4e52-a3b3-6a9ffcf56aee INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 16:21:04.243 4036b902-d6d6-4e52-a3b3-6a9ffcf56aee INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.0686ms 
+ [2024-07-18 16:21:04.377 531b620a-bc40-433a-8ee2-c69773d823ee INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 16:21:04.585 531b620a-bc40-433a-8ee2-c69773d823ee INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 208.346ms 
+ [2024-07-18 16:21:16.030 c66b80ed-8068-416a-9a33-0e258b969091 INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - null null 
+ [2024-07-18 16:21:16.046 c66b80ed-8068-416a-9a33-0e258b969091 INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:21:16.092 c66b80ed-8068-416a-9a33-0e258b969091 INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:21:16.276 c66b80ed-8068-416a-9a33-0e258b969091 INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:22:24.163 b9aa28e7-2946-4936-b8be-622d8040152e INF] Now listening on: https://localhost:7288 
+ [2024-07-18 16:22:24.290 98c1a730-9ab5-4b83-92c4-f77380b80a05 INF] Now listening on: http://localhost:5246 
+ [2024-07-18 16:22:24.293 b43c2ab6-ea51-485b-a43a-99b187c21606 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 16:22:24.293 346f4413-866d-4154-a387-6513fdb6d742 INF] Hosting environment: Development 
+ [2024-07-18 16:22:24.293 796e6389-2f00-48d7-87e3-80bd35921a65 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 16:22:24.957 96552c2d-0c00-4bab-86e5-36128357bef1 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 16:22:27.494 96552c2d-0c00-4bab-86e5-36128357bef1 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 16:22:27.794 96552c2d-0c00-4bab-86e5-36128357bef1 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2843.5948ms 
+ [2024-07-18 16:22:27.836 f0388fe4-9561-47e0-80e5-b65e27f2911e INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 16:22:27.853 f0388fe4-9561-47e0-80e5-b65e27f2911e INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 17.1555ms 
+ [2024-07-18 16:22:27.968 1b82d05c-764f-4a6a-b946-f8cde25f200b INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 16:22:28.194 1b82d05c-764f-4a6a-b946-f8cde25f200b INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 225.9136ms 
+ [2024-07-18 16:23:21.625 95f64fbc-3023-43e3-90d3-3f58cf0f946f INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - null null 
+ [2024-07-18 16:23:21.652 95f64fbc-3023-43e3-90d3-3f58cf0f946f INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:23:21.685 95f64fbc-3023-43e3-90d3-3f58cf0f946f INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:23:21.867 95f64fbc-3023-43e3-90d3-3f58cf0f946f INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:30:26.742 e84a6a86-a59d-494d-a02a-e34904e8cb93 INF] Now listening on: https://localhost:7288 
+ [2024-07-18 16:30:26.832 f3056bb5-f1c0-4fa2-86c8-b9c4ecfa518b INF] Now listening on: http://localhost:5246 
+ [2024-07-18 16:30:26.836 fefc05df-f9ff-434e-9523-b3027a43887d INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 16:30:26.836 cd340e21-fa09-47e5-99ff-17e6abbea9b3 INF] Hosting environment: Development 
+ [2024-07-18 16:30:26.837 9b09d52b-a68e-45c0-943d-02c4870d1a29 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 16:30:27.658 73cee811-9733-4f9b-9136-f8bc8be5e8c5 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 16:30:30.196 73cee811-9733-4f9b-9136-f8bc8be5e8c5 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 16:30:30.600 73cee811-9733-4f9b-9136-f8bc8be5e8c5 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2951.101ms 
+ [2024-07-18 16:30:30.621 a81987a2-fefe-4065-9d78-c905872af937 INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 16:30:30.639 a81987a2-fefe-4065-9d78-c905872af937 INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 18.2065ms 
+ [2024-07-18 16:30:30.744 7b9e52a5-d739-4740-8379-9c4e7b8d9c18 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 16:30:30.959 7b9e52a5-d739-4740-8379-9c4e7b8d9c18 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 214.217ms 
+ [2024-07-18 16:30:43.337 284b02cc-7d4d-4181-b670-2d27e41a3f42 INF] Request starting HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - null null 
+ [2024-07-18 16:30:43.348 284b02cc-7d4d-4181-b670-2d27e41a3f42 INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:30:43.381 284b02cc-7d4d-4181-b670-2d27e41a3f42 INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto]] GetCliente(System.Guid) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:30:43.563 284b02cc-7d4d-4181-b670-2d27e41a3f42 INF] Executing action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) - Validation state: "Valid" 
+ [2024-07-18 16:30:47.794 284b02cc-7d4d-4181-b670-2d27e41a3f42 INF] Iniciando consulta de Example por id "9a6edf8c-be1e-4cee-995f-696a4fe8fb9e" 
+ [2024-07-18 16:31:15.974 284b02cc-7d4d-4181-b670-2d27e41a3f42 INF] Finalizando consulta de Example por id "9a6edf8c-be1e-4cee-995f-696a4fe8fb9e" 
+ [2024-07-18 16:31:25.312 284b02cc-7d4d-4181-b670-2d27e41a3f42 INF] Executed action method BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 41738.084ms. 
+ [2024-07-18 16:31:25.325 284b02cc-7d4d-4181-b670-2d27e41a3f42 INF] Executing OkObjectResult, writing value of type 'BNA.EF1.Application.Clientes.Queries.GetCliente.GetClienteDto'. 
+ [2024-07-18 16:31:30.524 284b02cc-7d4d-4181-b670-2d27e41a3f42 INF] Executed action BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API) in 47116.8882ms 
+ [2024-07-18 16:31:30.525 284b02cc-7d4d-4181-b670-2d27e41a3f42 INF] Executed endpoint 'BNA.EF1.API.Controllers.Cliente.GetCliente (BNA.EF1.API)' 
+ [2024-07-18 16:31:30.535 284b02cc-7d4d-4181-b670-2d27e41a3f42 INF] Request finished HTTP/2 GET https://localhost:7288/api/Cliente/9A6EDF8C-BE1E-4CEE-995F-696A4FE8FB9E - 200 null application/json; charset=utf-8 47196.157ms 
+ [2024-07-18 16:43:15.448 fcea5ba1-db35-48ea-9fcb-78c9d254d8cc INF] Now listening on: https://localhost:7288 
+ [2024-07-18 16:43:15.533 510b107d-6774-4836-bc46-d66fab50f940 INF] Now listening on: http://localhost:5246 
+ [2024-07-18 16:43:15.536 8fe2f2f8-4db4-446d-85ab-c2b4fc923b54 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-07-18 16:43:15.536 999ad000-43e4-4bf1-9451-1de1e63af906 INF] Hosting environment: Development 
+ [2024-07-18 16:43:15.536 8c0b5459-3b76-455a-950f-a7e0cf190151 INF] Content root path: C:\Users\n29938\Desktop\Ejercitacion Apis\BNA EF1 V.1.02\BNA.EF1.API 
+ [2024-07-18 16:43:16.565 b61b0bd5-8bb0-42f2-8132-9edadf889efa INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-07-18 16:43:19.106 b61b0bd5-8bb0-42f2-8132-9edadf889efa WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [2024-07-18 16:43:19.511 b61b0bd5-8bb0-42f2-8132-9edadf889efa INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 2953.4369ms 
+ [2024-07-18 16:43:19.548 5e584c9a-f87e-4aca-a771-84274a5c2c6d INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-07-18 16:43:19.566 5e584c9a-f87e-4aca-a771-84274a5c2c6d INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 17.8486ms 
+ [2024-07-18 16:43:19.666 c48718a4-33e5-44db-8a46-2d2661d90da2 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-07-18 16:43:19.912 c48718a4-33e5-44db-8a46-2d2661d90da2 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 245.7942ms 
+ [2024-07-18 16:43:44.525 395a6507-3aa5-4760-bc17-24fa229cf0d6 INF] Request starting HTTP/2 POST https://localhost:7288/api/Cliente - application/json 70 
+ [2024-07-18 16:43:44.598 395a6507-3aa5-4760-bc17-24fa229cf0d6 INF] Executing endpoint 'BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API)' 
+ [2024-07-18 16:43:44.635 395a6507-3aa5-4760-bc17-24fa229cf0d6 INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateCliente(BNA.EF1.Application.Clientes.Commands.CreateCliente.CreateClienteCommand) on controller BNA.EF1.API.Controllers.Cliente (BNA.EF1.API). 
+ [2024-07-18 16:43:44.868 395a6507-3aa5-4760-bc17-24fa229cf0d6 INF] Executing action method BNA.EF1.API.Controllers.Cliente.CreateCliente (BNA.EF1.API) - Validation state: "Valid" 
+ 

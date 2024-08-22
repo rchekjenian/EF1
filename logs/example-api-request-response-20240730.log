@@ -1,0 +1,9 @@
+[2024-07-30 16:25:38.520 ef108306-1da1-4485-a23b-1a8b28d005f7 INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["ef108306-1da1-4485-a23b-1a8b28d005f7"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-30 16:30:20.350 06165080-ce8c-48d7-ba8f-af15b674167a INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["06165080-ce8c-48d7-ba8f-af15b674167a"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ 

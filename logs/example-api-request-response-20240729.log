@@ -1,0 +1,57 @@
+[2024-07-29 15:12:48.897 f5118eb9-bce0-43de-bb3b-a991366e7195 INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["f5118eb9-bce0-43de-bb3b-a991366e7195"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 15:13:09.029 ae3ef0fe-87f4-46a3-819d-c9e21448e491 INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["ae3ef0fe-87f4-46a3-819d-c9e21448e491"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 16:55:42.683 f5df1c1e-f0ac-4c6a-856b-e1e9284aac87 INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["f5df1c1e-f0ac-4c6a-856b-e1e9284aac87"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 17:11:25.532 9b612a3b-8225-4be1-834f-386ba6470b2d INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["9b612a3b-8225-4be1-834f-386ba6470b2d"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 17:21:45.952 6d5c0810-b88b-4772-9ef7-c343abf8b32f INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["6d5c0810-b88b-4772-9ef7-c343abf8b32f"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 17:22:59.166 5ca75c94-7748-4017-8dae-e284a4c1e5fa INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["5ca75c94-7748-4017-8dae-e284a4c1e5fa"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 17:23:16.743 ce6cddf0-a727-43f9-a09a-10867f6e153f INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["ce6cddf0-a727-43f9-a09a-10867f6e153f"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 17:23:24.207 56aba728-d8ab-4dc7-a286-5cf3571fcde8 INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["56aba728-d8ab-4dc7-a286-5cf3571fcde8"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 18:50:27.041 87a0030a-5027-4541-a4a7-6a7e9809aec1 INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["87a0030a-5027-4541-a4a7-6a7e9809aec1"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 18:55:08.858 fab61dee-ec3a-4ed8-aca7-3199a1c4ddde INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["fab61dee-ec3a-4ed8-aca7-3199a1c4ddde"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 19:07:26.118 db7cff8d-248c-44d9-ad7d-b2043c386033 INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["db7cff8d-248c-44d9-ad7d-b2043c386033"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 19:08:49.631 50f17b99-2978-4c0a-b0eb-10c7c328c87d INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["50f17b99-2978-4c0a-b0eb-10c7c328c87d"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 19:09:23.410 a9d8678d-9fe6-4092-8332-a19aa0bf45de INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["a9d8678d-9fe6-4092-8332-a19aa0bf45de"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ [2024-07-29 19:23:37.061 3e689a2a-6c96-48e3-857c-f5edb4b60b7b INF] Api Response:
+Status Code: 500
+Headers: {"__BNA-RequestId":["3e689a2a-6c96-48e3-857c-f5edb4b60b7b"]}
+Body: {"Value":{"Type":null,"Title":"Internal Server Error","Status":500,"Detail":null,"Instance":null,"Extensions":{}},"Formatters":[],"ContentTypes":[],"DeclaredType":null,"StatusCode":500} 
+ 
