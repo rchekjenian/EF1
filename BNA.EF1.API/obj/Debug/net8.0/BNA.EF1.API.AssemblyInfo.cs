@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BNA.EF1.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdf79dbad270ec74d671ce7f9db5e1af9e1adb56")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+feca86bc0317951e403bc1f5199749c2dfcfff40")]
 [assembly: System.Reflection.AssemblyProductAttribute("BNA.EF1.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BNA.EF1.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

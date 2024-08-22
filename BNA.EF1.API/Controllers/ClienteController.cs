@@ -44,8 +44,9 @@ namespace BNA.EF1.API.Controllers
         [ProducesResponseType(500)]
         private async Task<ActionResult<Application.Clientes.Queries.GetCliente.GetClienteDto>> GetClienteQuery(Guid id)
         {
-                var result = await Mediator.Send(new GetClienteQuery(id));
-                return result.Match(Ok, Problem);
+            var clientes = new GetClienteDto(new Guid(), "LoFaro", "Bruno", 20141444443);
+            return Ok(clientes);
+
         }
 
         //GET /api/clientes/{cuil}/cuentas: Obtener las cuentas asociadas a un cliente específico.
@@ -73,11 +74,13 @@ namespace BNA.EF1.API.Controllers
         {
         var result = await Mediator.Send(new CreateClienteCommand( request.Nombre,request.Apellido,request.cuil));
 
+            var clientes = new GetClienteDto(new Guid(), "LoFaro", "Bruno", 20141444443);
+            return Ok(clientes);
 
-
+            
             //    return result.Match(_ => Ok(), Problem);
 
-            return result.Match(cliente => Ok(cliente), Problem);
+//            return result.Match(cliente => Ok(cliente), Problem);
             // Si el resultado es exitoso, retornar el DT
             //
             // 
