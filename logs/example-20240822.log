@@ -112,4 +112,17 @@
  [2024-08-22 12:30:47.053 8638f463-bbbd-406c-9dc0-3eb5bbed32e9 INF] Executed action BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API) in 410.8175ms 
  [2024-08-22 12:30:47.053 8638f463-bbbd-406c-9dc0-3eb5bbed32e9 INF] Executed endpoint 'BNA.EF1.API.Controllers.ClienteController.CreateCuentaCommandCuenta (BNA.EF1.API)' 
  [2024-08-22 12:30:47.053 8638f463-bbbd-406c-9dc0-3eb5bbed32e9 INF] Request finished HTTP/2 POST https://localhost:7288/api/Cliente/3fa85f64-5717-4562-b3fc-2c963f66afa6/cuentas - 200 null application/json; charset=utf-8 483.6192ms 
+ [2024-08-22 14:11:06.481 be3fd8bd-e085-4e42-90ab-639a046ff05c INF] Now listening on: https://localhost:7288 
+ [2024-08-22 14:11:06.549 f291752c-9537-4a2d-b3b2-38151426b88b INF] Now listening on: http://localhost:5246 
+ [2024-08-22 14:11:06.552 f64aa040-9f40-4015-ad55-5eefccd674e8 INF] Application started. Press Ctrl+C to shut down. 
+ [2024-08-22 14:11:06.552 e5a35f70-c2d5-4622-8af4-e8241f9affa1 INF] Hosting environment: Development 
+ [2024-08-22 14:11:06.552 4ef6e067-1505-490f-bc4b-63e49d871e5f INF] Content root path: C:\Users\n29938\Documents\GitHub\EF1\BNA.EF1.API 
+ [2024-08-22 14:11:13.058 faf323d1-b9af-49ce-a2f8-15be1244d875 INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - null null 
+ [2024-08-22 14:11:13.854 faf323d1-b9af-49ce-a2f8-15be1244d875 INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - 200 null text/html;charset=utf-8 801.304ms 
+ [2024-08-22 14:11:14.385 563ead5d-c0bd-4e76-835b-32898859cf7d INF] Request starting HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - null null 
+ [2024-08-22 14:11:14.388 8f423733-d704-4d06-96ad-b845e5e1d30c INF] Request starting HTTP/2 GET https://localhost:7288/_vs/browserLink - null null 
+ [2024-08-22 14:11:14.394 563ead5d-c0bd-4e76-835b-32898859cf7d INF] Request finished HTTP/2 GET https://localhost:7288/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.9873ms 
+ [2024-08-22 14:11:14.607 8f423733-d704-4d06-96ad-b845e5e1d30c INF] Request finished HTTP/2 GET https://localhost:7288/_vs/browserLink - 200 null text/javascript; charset=UTF-8 219.6824ms 
+ [2024-08-22 14:11:14.676 244c22a2-2b74-4780-a520-b2b68ee7f79e INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - null null 
+ [2024-08-22 14:11:14.829 244c22a2-2b74-4780-a520-b2b68ee7f79e INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 153.0841ms 
  

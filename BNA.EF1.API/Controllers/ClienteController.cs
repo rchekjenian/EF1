@@ -72,9 +72,9 @@ namespace BNA.EF1.API.Controllers
         [ProducesResponseType(500)]
         public async Task<ActionResult<GetClienteDto>> CreateClienteCommand(CreateClienteCommand  request)
         {
-        var result = await Mediator.Send(new CreateClienteCommand( request.Nombre,request.Apellido,request.cuil));
+//        var result = await Mediator.Send(new CreateClienteCommand( request.Nombre,request.Apellido,request.cuil));
 
-            var clientes = new GetClienteDto(new Guid(), "LoFaro", "Bruno", 20141444443);
+            var clientes = new GetClienteDto(new Guid(), request.Apellido, request.Nombre, request.cuil);
             return Ok(clientes);
 
             
@@ -102,7 +102,7 @@ namespace BNA.EF1.API.Controllers
         [ProducesResponseType(500)]
         public async Task<ActionResult> CreateCuentaCommandCuenta(Guid id ,[FromBody]CuentaDto request)
         {
-            var result = await Mediator.Send(new CreateCuentaCommand(id, request));
+            //var result = await Mediator.Send(new CreateCuentaCommand(id, request));
 
             //return result.Match(_ => Ok(), Problem);
             var clientes = new GetClienteDto(new Guid(), "LoFaro", "Bruno", 20141444443);
